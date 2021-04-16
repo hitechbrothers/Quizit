@@ -40,7 +40,6 @@
 		E0C74C4925F84741001A3B64 /* Quizit-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E0C74C2D25F8473F001A3B64 /* Quizit-watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E0C74C5A25F84826001A3B64 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E069C09A25C885F10049E945 /* CloudKit.framework */; };
 		E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */; };
-		E0C74C6825F84E06001A3B64 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE225DB461A000619DA /* CategoryDetailView.swift */; };
 		E0CD142E26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */; };
 		E0CD142F26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */; };
 		E0CD143026080D68006A51F2 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */; };
@@ -53,6 +52,7 @@
 		E0CD143726080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */; };
 		E0CD143826080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */; };
 		E0CD143926080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */; };
+		E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */; };
 		E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
 		E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
 		E0E71EC425FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
@@ -139,6 +139,7 @@
 		E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E0E71EC125FC888200FBA887 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,6 +249,7 @@
 		E0259ACE25FAFF2000131564 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */,
 				E0C74C3B25F84740001A3B64 /* ContentView.swift */,
 				E0259ACF25FB06A200131564 /* AddCategoryView.swift */,
 			);
@@ -536,8 +538,8 @@
 				E0259ACC25FAFDF500131564 /* QuizitApp.swift in Sources */,
 				E0CD143926080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */,
 				E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */,
-				E0C74C6825F84E06001A3B64 /* CategoryDetailView.swift in Sources */,
 				E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */,
+				E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

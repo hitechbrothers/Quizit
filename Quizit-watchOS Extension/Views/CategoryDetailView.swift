@@ -49,7 +49,7 @@ struct CategoryDetailView: View {
                 }
             }
             .sheet(isPresented: $isAddQuestionPresented) {
-                AddQuestionView(context: self.context, category: category)
+//                AddQuestionView(context: self.context)
             }
 //            .sheet(isPresented: $isAnswerPresented) {
 ////              AnswerView(context: self.context)

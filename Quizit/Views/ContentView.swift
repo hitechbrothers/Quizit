@@ -19,7 +19,6 @@ struct ContentView: View {
 //    var catagories: FetchedResults<Category>
 
     @State var isAddFormPresented: Bool = false
-    @State var isAddQuestionPresented: Bool = false
     @StateObject var record = ObservedRecord()
     
     var body: some View {
@@ -27,28 +26,10 @@ struct ContentView: View {
       NavigationView {
         
         List {
-            
-            /* Remove after testing */
-            Button(action: {
-                self.isAddQuestionPresented = true
-            }) {
-                 HStack {
-                     Spacer()
-                     Image(systemName: "plus.circle")
-                     Text("Add Question")
-                     Spacer()
-                 }
-    //             .foregroundColor(Color(.red))
-            }
-            /* Remove after testing */
-            
           ForEach(self.catagories) { category in
               CategoryCell(category: category)
           }
           .onDelete(perform: deleteCategory)
-        }
-        .sheet(isPresented: $isAddQuestionPresented) {
-            AddQuestionView(context: self.context)
         }
         .sheet(isPresented: $isAddFormPresented) {
           AddCategoryView(context: self.context)

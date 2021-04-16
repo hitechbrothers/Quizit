@@ -11,6 +11,7 @@ import CoreData
 struct AddQuestionView: View {
     
     var context: NSManagedObjectContext
+    let category: Category
 
 //    @Environment(\.managedObjectContext) var context: NSManagedObjectContext
 
@@ -59,14 +60,22 @@ struct AddQuestionView: View {
     private func onSaveTapped() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         
+        
         let newRecord = Record(context: self.context)
-        newRecord.question = self.newQuestion
+//        let newCategory = Category(context: self.context)
+//        newCategory.addToRecord(<#T##value: Record##Record#>)
+        
         newRecord.answer = self.newAnswer
-        newRecord.category = Category(context: self.context)
-//        newRecord.category = record.refObj.category //not sure about this
-        newRecord.category?.name = "Test1"
-        newRecord.category?.id = UUID() //shouldn't do this
         newRecord.id = UUID()
+        newRecord.question = self.newQuestion
+        newRecord.category = category
+//        category.addToRecord(newRecord)
+//        newRecord.category = Category(context: self.context)
+        
+        
+//        newRecord.category = record.refObj.category //not sure about this
+//        newRecord.category?.name = "Test1"
+//        newRecord.category?.id = UUID() //shouldn't do this
         
         /*
          // Get CategoryRootViewController's object
