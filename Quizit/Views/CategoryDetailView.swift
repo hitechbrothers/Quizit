@@ -11,61 +11,76 @@ import CoreData
 struct CategoryDetailView: View {
     
     @Environment(\.managedObjectContext) var context: NSManagedObjectContext
-
+    
     let category: Category
+
     
     @State var isAddQuestionPresented: Bool = false
     @State var isAnswerPresented: Bool = false
-        
+    @State var isTagInfoPresented: Bool = false
+    
     var body: some View {
         NavigationView {
-            List {
-
+            VStack {
                 
-                Section(header: Text("Tag goes here").foregroundColor(.blue)) {
+                List {
+                    
+                    HStack {
+                        Text("Tag goes here")
+                            .padding()
+                            .foregroundColor(.blue)
+                            .background(Color.gray)
+                    }
+                    
                     /* Remove after testing */
                     Button(action: {
                         self.isAddQuestionPresented = true
                     }) {
-                         HStack {
-                             Spacer()
-                             Image(systemName: "plus.circle")
-                             Text("Add Question")
-                             Spacer()
-                         }
-            //             .foregroundColor(Color(.red))
-                    }
-                    /* Remove after testing */
-
                         HStack {
                             Spacer()
-                            Text("Question")
-                                .bold()
+                            Image(systemName: "plus.circle")
+                            Text("Add Question")
                             Spacer()
                         }
-                        .padding(5)
+                        //             .foregroundColor(Color(.red))
+                    }
                     
-                        Text("Kd kdfsk kids kldsf   ndsklfdsk nds klfd dfsklkfds lfds ls sdks")
+                    /* Remove after testing */
+                    
+                    HStack {
+                        Spacer()
+                        Text("Question")
+                            .bold()
+                        Spacer()
+                    }
+                    .padding(5)
+                    
+                    Text("Kd kdfsk kids kldsf   ndsklfdsk nds klfd dfsklkfds lfds ls sdks")
+                    
+                    
+                    
                 }
+                .sheet(isPresented: $isAddQuestionPresented) {
+                    AddQuestionView(context: self.context, category: category)
+                }
+                .sheet(isPresented: $isTagInfoPresented) {
+                    TagInfoView()
+                }
+                //            .sheet(isPresented: $isAnswerPresented) {
+                ////              AnswerView(context: self.context)
+                //                AnswerView()
+                //            }
             }
-            .sheet(isPresented: $isAddQuestionPresented) {
-                AddQuestionView(context: self.context, category: category)
-            }
-//            .sheet(isPresented: $isAnswerPresented) {
-////              AnswerView(context: self.context)
-//                AnswerView()
-//            }
             .navigationBarTitle(Text(category.name!))
-            
-//            Button(action: {self.isAnswerPresented = true}) {
-//                     HStack {
-//                         Spacer()
-//                         Text("Answer")
-//                         Spacer()
-//                     }
-//            }
-//            Spacer()
         }
+        .navigationBarItems(
+            trailing:
+                Button(action: {
+                    self.isTagInfoPresented = true
+                }) {
+                    Image(systemName: "info.circle")
+                }
+        )
     }
 }
 

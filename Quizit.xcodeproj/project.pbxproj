@@ -20,14 +20,22 @@
 		E013369725C7FEDE0024EF84 /* Quizit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */; };
 		E0259ACA25FAFBB200131564 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013147425C7EE260024EF84 /* Persistence.swift */; };
 		E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013147425C7EE260024EF84 /* Persistence.swift */; };
-		E0259ACC25FAFDF500131564 /* QuizitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013146B25C7EE230024EF84 /* QuizitApp.swift */; };
-		E0259ACD25FAFDF500131564 /* QuizitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013146B25C7EE230024EF84 /* QuizitApp.swift */; };
 		E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0259ACF25FB06A200131564 /* AddCategoryView.swift */; };
+		E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */; };
+		E03EDE2626957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */; };
+		E03EDE2726957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */; };
+		E03EDE2826957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */; };
+		E03EDE2926957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */; };
+		E03EDE2A26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */; };
+		E03EDE2B26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */; };
 		E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBD725DB4599000619DA /* CategoryDetailView.swift */; };
 		E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE225DB461A000619DA /* CategoryDetailView.swift */; };
 		E059EBE625DB461B000619DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE325DB461B000619DA /* ContentView.swift */; };
 		E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE425DB461B000619DA /* AddCategoryView.swift */; };
+		E05A31232696110D0087FB16 /* AddTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A31222696110D0087FB16 /* AddTagView.swift */; };
 		E069C09825C885A20049E945 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E069C09725C885A20049E945 /* CloudKit.framework */; };
+		E0729CA5269F758C000124CB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0729CA4269F758C000124CB /* Settings.bundle */; };
+		E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = E0729CA9269F7B24000124CB /* MKiCloudSync.m */; };
 		E0876EA22605A7F600F32127 /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0876EA12605A7F600F32127 /* AddQuestionView.swift */; };
 		E0BF291B260867A20027D599 /* RecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF291A260867A20027D599 /* RecordType.swift */; };
 		E0BF291C2608683E0027D599 /* RecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF291A260867A20027D599 /* RecordType.swift */; };
@@ -118,12 +126,21 @@
 		E01314D425C7F64B0024EF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01314D525C7F64B0024EF84 /* Quizit_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quizit_macOS.entitlements; sourceTree = "<group>"; };
 		E0259ACF25FB06A200131564 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInfoView.swift; sourceTree = "<group>"; };
+		E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E059EBD725DB4599000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E059EBE225DB461A000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E059EBE325DB461B000619DA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E059EBE425DB461B000619DA /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		E05A31222696110D0087FB16 /* AddTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagView.swift; sourceTree = "<group>"; };
 		E069C09725C885A20049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		E069C09A25C885F10049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0729CA4269F758C000124CB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E0729CA7269F7B23000124CB /* Quizit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizit-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0729CA8269F7B23000124CB /* Quizit-watchOS Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizit-watchOS Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0729CA9269F7B24000124CB /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
+		E0729CAA269F7B24000124CB /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
 		E0876EA12605A7F600F32127 /* AddQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
 		E0BF291A260867A20027D599 /* RecordType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordType.swift; sourceTree = "<group>"; };
 		E0C74C2D25F8473F001A3B64 /* Quizit-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizit-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,6 +196,7 @@
 				E01314C525C7F6430024EF84 /* Quizit-macOS */,
 				E0C74C2E25F8473F001A3B64 /* Quizit-watchOS */,
 				E0C74C3A25F84740001A3B64 /* Quizit-watchOS Extension */,
+				E0729CA6269F75B5000124CB /* Resources */,
 				E013146925C7EE230024EF84 /* Products */,
 				E013148325C7EECE0024EF84 /* Frameworks */,
 			);
@@ -273,6 +291,8 @@
 				E059EBE225DB461A000619DA /* CategoryDetailView.swift */,
 				E059EBE425DB461B000619DA /* AddCategoryView.swift */,
 				E0876EA12605A7F600F32127 /* AddQuestionView.swift */,
+				E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */,
+				E05A31222696110D0087FB16 /* AddTagView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,6 +307,18 @@
 				E0BF291A260867A20027D599 /* RecordType.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		E0729CA6269F75B5000124CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0729CAA269F7B24000124CB /* MKiCloudSync.h */,
+				E0729CA9269F7B24000124CB /* MKiCloudSync.m */,
+				E0729CA4269F758C000124CB /* Settings.bundle */,
+				E0729CA7269F7B23000124CB /* Quizit-Bridging-Header.h */,
+				E0729CA8269F7B23000124CB /* Quizit-watchOS Extension-Bridging-Header.h */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E0C74C2E25F8473F001A3B64 /* Quizit-watchOS */ = {
@@ -321,10 +353,12 @@
 		E0CD142926080D24006A51F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */,
-				E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */,
 				E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */,
 				E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */,
+				E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */,
+				E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */,
+				E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */,
+				E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -413,6 +447,7 @@
 				TargetAttributes = {
 					E013146725C7EE230024EF84 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
 					};
 					E01314C325C7F6430024EF84 = {
 						CreatedOnToolsVersion = 12.4;
@@ -422,6 +457,7 @@
 					};
 					E0C74C3525F84740001A3B64 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -452,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E013147325C7EE260024EF84 /* Preview Assets.xcassets in Resources */,
+				E0729CA5269F758C000124CB /* Settings.bundle in Resources */,
 				E013147025C7EE260024EF84 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,8 +536,13 @@
 				E013147825C7EE260024EF84 /* Quizit.xcdatamodeld in Sources */,
 				E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */,
 				E0CD143126080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
+				E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */,
+				E03EDE2626957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,
 				E0CD142E26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */,
+				E05A31232696110D0087FB16 /* AddTagView.swift in Sources */,
+				E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */,
 				E013146C25C7EE230024EF84 /* QuizitApp.swift in Sources */,
+				E03EDE2926957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */,
 				E0BF291B260867A20027D599 /* RecordType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,12 +555,13 @@
 				E0CD143226080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
 				E006498525F336AA00D43F87 /* AddCategoryView.swift in Sources */,
 				E0CD143526080D68006A51F2 /* Category+CoreDataClass.swift in Sources */,
+				E03EDE2A26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */,
 				E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */,
 				E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */,
 				E0CD142F26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */,
 				E0259ACA25FAFBB200131564 /* Persistence.swift in Sources */,
+				E03EDE2726957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,
 				E0CD143826080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */,
-				E0259ACD25FAFDF500131564 /* QuizitApp.swift in Sources */,
 				E013369725C7FEDE0024EF84 /* Quizit.xcdatamodeld in Sources */,
 				E01314C925C7F6430024EF84 /* ContentView.swift in Sources */,
 			);
@@ -532,10 +575,11 @@
 				E0CD143326080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
 				E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */,
 				E0CD143626080D68006A51F2 /* Category+CoreDataClass.swift in Sources */,
+				E03EDE2B26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */,
 				E0C74C3C25F84740001A3B64 /* ContentView.swift in Sources */,
 				E0E71EC425FC888200FBA887 /* AnswerView.swift in Sources */,
 				E0CD143026080D68006A51F2 /* Record+CoreDataClass.swift in Sources */,
-				E0259ACC25FAFDF500131564 /* QuizitApp.swift in Sources */,
+				E03EDE2826957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,
 				E0CD143926080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */,
 				E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */,
 				E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */,
@@ -680,6 +724,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Quizit/Quizit.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -695,6 +740,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hitechbrothers.Quizit2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/Quizit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -705,6 +752,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Quizit/Quizit.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -720,6 +768,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hitechbrothers.Quizit2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/Quizit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -781,6 +830,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Quizit-watchOS Extension/Quizit-watchOS Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quizit-watchOS Extension/Preview Content\"";
@@ -796,6 +846,8 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/Quizit-watchOS Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.2;
@@ -806,6 +858,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Quizit-watchOS Extension/Quizit-watchOS Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Quizit-watchOS Extension/Preview Content\"";
@@ -821,6 +874,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Resources/Quizit-watchOS Extension-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 7.2;

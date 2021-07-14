@@ -37,6 +37,10 @@ struct AddCategoryView: View {
     }
 
   private func onSaveTapped() {
+    
+    if (self.newCategory.isEmpty)
+    {return}
+    
       UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
       
 //      let category: Category?
