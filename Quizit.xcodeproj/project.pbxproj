@@ -64,6 +64,7 @@
 		E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
 		E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
 		E0E71EC425FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
+		E0E8F81B269FABC100DA9F3A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8F81A269FABC100DA9F3A /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +159,7 @@
 		E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E0E71EC125FC888200FBA887 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+		E0E8F81A269FABC100DA9F3A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +319,7 @@
 				E0729CA4269F758C000124CB /* Settings.bundle */,
 				E0729CA7269F7B23000124CB /* Quizit-Bridging-Header.h */,
 				E0729CA8269F7B23000124CB /* Quizit-watchOS Extension-Bridging-Header.h */,
+				E0E8F81A269FABC100DA9F3A /* UserSettings.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -535,6 +538,7 @@
 				E013147525C7EE260024EF84 /* Persistence.swift in Sources */,
 				E013147825C7EE260024EF84 /* Quizit.xcdatamodeld in Sources */,
 				E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */,
+				E0E8F81B269FABC100DA9F3A /* UserSettings.swift in Sources */,
 				E0CD143126080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
 				E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */,
 				E03EDE2626957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,

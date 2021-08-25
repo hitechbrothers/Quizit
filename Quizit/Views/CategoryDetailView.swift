@@ -7,21 +7,36 @@
 
 import SwiftUI
 import CoreData
+import Combine
 
 struct CategoryDetailView: View {
     
     @Environment(\.managedObjectContext) var context: NSManagedObjectContext
     
     let category: Category
-
-    
+	
     @State var isAddQuestionPresented: Bool = false
     @State var isAnswerPresented: Bool = false
     @State var isTagInfoPresented: Bool = false
     
+    @ObservedObject var settings = UserSettings()
+    
     var body: some View {
         NavigationView {
             VStack {
+                
+                /* test area for settings*/
+//                VStack {
+//                    Form {
+//                        Section(header: Text("PROFILE")) {
+                            Toggle(isOn: $settings.isRandom) {
+                                Text("Random")
+                            }
+                            .padding()
+//                        }
+//                    }
+//                }
+                /* end test area for settings */
                 
                 List {
                     
