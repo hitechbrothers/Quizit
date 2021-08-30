@@ -29,6 +29,7 @@ extension Record {
     }
     
     @NSManaged public var category: Category?
+    @NSManaged public var tag: Tag?
 }
 
 extension Record : Identifiable {

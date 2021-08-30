@@ -18,8 +18,8 @@ struct CategoryDetailView: View {
     @State var isAddQuestionPresented: Bool = false
     @State var isAnswerPresented: Bool = false
     @State var isTagInfoPresented: Bool = false
-    
     @ObservedObject var settings = UserSettings()
+    let request: NSFetchRequest<Tag> = Tag.fetchRequest()
     
     var body: some View {
         NavigationView {
@@ -41,11 +41,13 @@ struct CategoryDetailView: View {
                 List {
                     
                     HStack {
-                        Text("Tag goes here")
-                            .padding()
+                        let tags = try? context.fetch(self.request)
+                        let tag = tags?.randomElement()
+
+                        Text(tag!.name ?? "<no_tag>")
                             .foregroundColor(.blue)
-                            .background(Color.gray)
                     }
+                    .listRowBackground(Color(UIColor.lightGray))
                     
                     /* Remove after testing */
                     Button(action: {

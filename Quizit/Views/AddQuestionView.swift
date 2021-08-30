@@ -69,6 +69,7 @@ struct AddQuestionView: View {
         newRecord.id = UUID()
         newRecord.question = self.newQuestion
         newRecord.category = category
+//        newRecord.tag = //something
 //        category.addToRecord(newRecord)
 //        newRecord.category = Category(context: self.context)
         
