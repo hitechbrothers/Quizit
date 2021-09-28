@@ -1,5 +1,5 @@
 //
-//  Category+CoreDataProperties.swift
+//  Tag+CoreDataProperties.swift
 //  Quizit
 //
 //  Created by Diego Acevedo on 9/19/21.
@@ -10,31 +10,20 @@ import Foundation
 import CoreData
 
 
-extension Category {
+extension Tag {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Category> {
-        return NSFetchRequest<Category>(entityName: "Category")
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Tag> {
+        return NSFetchRequest<Tag>(entityName: "Tag")
     }
 
     @NSManaged public var id: UUID?
-    
     @NSManaged public var name: String?
-    public var wrappedName: String {
-        name ?? "Unknown Category"
-    }
-    
     @NSManaged public var record: NSSet?
-    public var recordArray: [Record] {
-        let set = record as? Set<Record> ?? []
-        return set.sorted {
-            $0.wrappedQuestion < $1.wrappedQuestion
-        }
-    }
 
 }
 
 // MARK: Generated accessors for record
-extension Category {
+extension Tag {
 
     @objc(addRecordObject:)
     @NSManaged public func addToRecord(_ value: Record)
@@ -50,6 +39,6 @@ extension Category {
 
 }
 
-extension Category : Identifiable {
+extension Tag : Identifiable {
 
 }

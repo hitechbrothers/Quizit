@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Category" representedClassName="Category" syncable="YES">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
@@ -18,11 +18,11 @@
     <entity name="Tag" representedClassName="Tag" syncable="YES">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
-        <relationship name="record" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Record" inverseName="tag" inverseEntity="Record"/>
+        <relationship name="record" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Record" inverseName="tag" inverseEntity="Record"/>
     </entity>
     <elements>
-        <element name="Category" positionX="-63" positionY="-18" width="128" height="74"/>
-        <element name="Record" positionX="-54" positionY="-9" width="128" height="104"/>
-        <element name="Tag" positionX="-63" positionY="27" width="128" height="74"/>
+        <element name="Category" positionX="-1547.364013671875" positionY="-62.43058776855469" width="128" height="74"/>
+        <element name="Record" positionX="-1269.598022460938" positionY="132.2738037109375" width="128" height="104"/>
+        <element name="Tag" positionX="-792.9649658203125" positionY="268.6565856933594" width="128" height="88"/>
     </elements>
 </model>

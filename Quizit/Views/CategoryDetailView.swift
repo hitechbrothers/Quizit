@@ -19,7 +19,27 @@ struct CategoryDetailView: View {
     @State var isAnswerPresented: Bool = false
     @State var isTagInfoPresented: Bool = false
     @ObservedObject var settings = UserSettings()
-    let request: NSFetchRequest<Tag> = Tag.fetchRequest()
+    
+    // someDate would be a date object that represents the movie's max age
+//    let oldMoviesPredicate = NSPredicate(format: "%K <= %@", #keyPath(Movie.releaseDate), someDate as NSDate)
+    
+    @FetchRequest(
+        entity: Tag.entity(),
+        sortDescriptors: [
+            NSSortDescriptor(keyPath: \Tag.name, ascending: true),
+//            animation: .default
+        ],
+//        predicate: NSPredicate(format: "name = %@ && school = %@", "Tom", school)
+        predicate: NSPredicate(format: "name = %@", "Holy Spirit")
+    ) var tags: FetchedResults<Tag>
+    
+    
+//    let request: NSFetchRequest<Tag> = Tag.fetchRequest()
+    
+//    let fetchRequest = NSFetchRequest<Person>(entityName: "Person")
+    
+//    let request = NSFetchRequest<Tag>(entityName: "Tag")
+//    let requestPredicate = NSPredicate(format: "name == %@", "Angel")
     
     var body: some View {
         NavigationView {
@@ -41,8 +61,10 @@ struct CategoryDetailView: View {
                 List {
                     
                     HStack {
-                        let tags = try? context.fetch(self.request)
-                        let tag = tags?.randomElement()
+//                        let tags = try? context.fetch(self.request)
+//                        let tag = tags?.randomElement()
+                        let tag = tags.randomElement()
+
 
                         Text(tag!.name ?? "<no_tag>")
                             .foregroundColor(.blue)

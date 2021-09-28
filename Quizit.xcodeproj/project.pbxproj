@@ -22,17 +22,29 @@
 		E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013147425C7EE260024EF84 /* Persistence.swift */; };
 		E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0259ACF25FB06A200131564 /* AddCategoryView.swift */; };
 		E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */; };
-		E03EDE2626957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */; };
-		E03EDE2726957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */; };
-		E03EDE2826957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */; };
-		E03EDE2926957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */; };
-		E03EDE2A26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */; };
-		E03EDE2B26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */; };
 		E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBD725DB4599000619DA /* CategoryDetailView.swift */; };
 		E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE225DB461A000619DA /* CategoryDetailView.swift */; };
 		E059EBE625DB461B000619DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE325DB461B000619DA /* ContentView.swift */; };
 		E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE425DB461B000619DA /* AddCategoryView.swift */; };
 		E05A31232696110D0087FB16 /* AddTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A31222696110D0087FB16 /* AddTagView.swift */; };
+		E05BB26526F8119B00EE8228 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */; };
+		E05BB26626F8119B00EE8228 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */; };
+		E05BB26726F8119B00EE8228 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */; };
+		E05BB26826F8119B00EE8228 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */; };
+		E05BB26926F8119B00EE8228 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */; };
+		E05BB26A26F8119B00EE8228 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */; };
+		E05BB26B26F811A400EE8228 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */; };
+		E05BB26C26F811A500EE8228 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */; };
+		E05BB26D26F811A900EE8228 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */; };
+		E05BB26E26F811AB00EE8228 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */; };
+		E05BB26F26F811AE00EE8228 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */; };
+		E05BB27026F811AF00EE8228 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */; };
+		E05BB27126F811B300EE8228 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */; };
+		E05BB27226F811B400EE8228 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */; };
+		E05BB27326F811B700EE8228 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */; };
+		E05BB27426F811B800EE8228 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */; };
+		E05BB27526F811BC00EE8228 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */; };
+		E05BB27626F811BD00EE8228 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */; };
 		E069C09825C885A20049E945 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E069C09725C885A20049E945 /* CloudKit.framework */; };
 		E0729CA5269F758C000124CB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0729CA4269F758C000124CB /* Settings.bundle */; };
 		E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = E0729CA9269F7B24000124CB /* MKiCloudSync.m */; };
@@ -48,18 +60,6 @@
 		E0C74C4925F84741001A3B64 /* Quizit-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E0C74C2D25F8473F001A3B64 /* Quizit-watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E0C74C5A25F84826001A3B64 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E069C09A25C885F10049E945 /* CloudKit.framework */; };
 		E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */; };
-		E0CD142E26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */; };
-		E0CD142F26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */; };
-		E0CD143026080D68006A51F2 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */; };
-		E0CD143126080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */; };
-		E0CD143226080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */; };
-		E0CD143326080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */; };
-		E0CD143426080D68006A51F2 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */; };
-		E0CD143526080D68006A51F2 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */; };
-		E0CD143626080D68006A51F2 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */; };
-		E0CD143726080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */; };
-		E0CD143826080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */; };
-		E0CD143926080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */; };
 		E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */; };
 		E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
 		E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
@@ -128,13 +128,17 @@
 		E01314D525C7F64B0024EF84 /* Quizit_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quizit_macOS.entitlements; sourceTree = "<group>"; };
 		E0259ACF25FB06A200131564 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInfoView.swift; sourceTree = "<group>"; };
-		E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E059EBD725DB4599000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E059EBE225DB461A000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E059EBE325DB461B000619DA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E059EBE425DB461B000619DA /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		E05A31222696110D0087FB16 /* AddTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagView.swift; sourceTree = "<group>"; };
+		E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E069C09725C885A20049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		E069C09A25C885F10049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		E0729CA4269F758C000124CB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
@@ -153,10 +157,6 @@
 		E0C74C4425F84741001A3B64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0C74C4625F84741001A3B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C74C5925F84823001A3B64 /* Quizit-watchOS Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Quizit-watchOS Extension.entitlements"; sourceTree = "<group>"; };
-		E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E0E71EC125FC888200FBA887 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 		E0E8F81A269FABC100DA9F3A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
@@ -356,12 +356,12 @@
 		E0CD142926080D24006A51F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E0CD142C26080D68006A51F2 /* Category+CoreDataClass.swift */,
-				E0CD142D26080D68006A51F2 /* Category+CoreDataProperties.swift */,
-				E0CD142A26080D68006A51F2 /* Record+CoreDataClass.swift */,
-				E0CD142B26080D68006A51F2 /* Record+CoreDataProperties.swift */,
-				E03EDE2426957E7700DB0512 /* Tag+CoreDataClass.swift */,
-				E03EDE2526957E7700DB0512 /* Tag+CoreDataProperties.swift */,
+				E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */,
+				E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */,
+				E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */,
+				E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */,
+				E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */,
+				E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -530,23 +530,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */,
-				E0CD143726080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */,
-				E0CD143426080D68006A51F2 /* Category+CoreDataClass.swift in Sources */,
 				E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */,
 				E0876EA22605A7F600F32127 /* AddQuestionView.swift in Sources */,
 				E059EBE625DB461B000619DA /* ContentView.swift in Sources */,
 				E013147525C7EE260024EF84 /* Persistence.swift in Sources */,
 				E013147825C7EE260024EF84 /* Quizit.xcdatamodeld in Sources */,
+				E05BB26526F8119B00EE8228 /* Tag+CoreDataClass.swift in Sources */,
+				E05BB26926F8119B00EE8228 /* Category+CoreDataClass.swift in Sources */,
 				E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */,
+				E05BB26826F8119B00EE8228 /* Record+CoreDataProperties.swift in Sources */,
+				E05BB26726F8119B00EE8228 /* Record+CoreDataClass.swift in Sources */,
 				E0E8F81B269FABC100DA9F3A /* UserSettings.swift in Sources */,
-				E0CD143126080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
 				E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */,
-				E03EDE2626957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,
-				E0CD142E26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */,
 				E05A31232696110D0087FB16 /* AddTagView.swift in Sources */,
+				E05BB26A26F8119B00EE8228 /* Category+CoreDataProperties.swift in Sources */,
+				E05BB26626F8119B00EE8228 /* Tag+CoreDataProperties.swift in Sources */,
 				E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */,
 				E013146C25C7EE230024EF84 /* QuizitApp.swift in Sources */,
-				E03EDE2926957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */,
 				E0BF291B260867A20027D599 /* RecordType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,18 +556,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BF291D2608683F0027D599 /* RecordType.swift in Sources */,
-				E0CD143226080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
+				E05BB27526F811BC00EE8228 /* Category+CoreDataProperties.swift in Sources */,
+				E05BB27326F811B700EE8228 /* Category+CoreDataClass.swift in Sources */,
 				E006498525F336AA00D43F87 /* AddCategoryView.swift in Sources */,
-				E0CD143526080D68006A51F2 /* Category+CoreDataClass.swift in Sources */,
-				E03EDE2A26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */,
+				E05BB26B26F811A400EE8228 /* Tag+CoreDataClass.swift in Sources */,
 				E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */,
 				E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */,
-				E0CD142F26080D68006A51F2 /* Record+CoreDataClass.swift in Sources */,
 				E0259ACA25FAFBB200131564 /* Persistence.swift in Sources */,
-				E03EDE2726957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,
-				E0CD143826080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */,
 				E013369725C7FEDE0024EF84 /* Quizit.xcdatamodeld in Sources */,
 				E01314C925C7F6430024EF84 /* ContentView.swift in Sources */,
+				E05BB27126F811B300EE8228 /* Record+CoreDataProperties.swift in Sources */,
+				E05BB26F26F811AE00EE8228 /* Record+CoreDataClass.swift in Sources */,
+				E05BB26D26F811A900EE8228 /* Tag+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,18 +576,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BF291C2608683E0027D599 /* RecordType.swift in Sources */,
-				E0CD143326080D68006A51F2 /* Record+CoreDataProperties.swift in Sources */,
+				E05BB27626F811BD00EE8228 /* Category+CoreDataProperties.swift in Sources */,
+				E05BB27426F811B800EE8228 /* Category+CoreDataClass.swift in Sources */,
 				E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */,
-				E0CD143626080D68006A51F2 /* Category+CoreDataClass.swift in Sources */,
-				E03EDE2B26957E7700DB0512 /* Tag+CoreDataProperties.swift in Sources */,
+				E05BB26C26F811A500EE8228 /* Tag+CoreDataClass.swift in Sources */,
 				E0C74C3C25F84740001A3B64 /* ContentView.swift in Sources */,
 				E0E71EC425FC888200FBA887 /* AnswerView.swift in Sources */,
-				E0CD143026080D68006A51F2 /* Record+CoreDataClass.swift in Sources */,
-				E03EDE2826957E7700DB0512 /* Tag+CoreDataClass.swift in Sources */,
-				E0CD143926080D68006A51F2 /* Category+CoreDataProperties.swift in Sources */,
 				E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */,
 				E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */,
 				E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */,
+				E05BB27226F811B400EE8228 /* Record+CoreDataProperties.swift in Sources */,
+				E05BB27026F811AF00EE8228 /* Record+CoreDataClass.swift in Sources */,
+				E05BB26E26F811AB00EE8228 /* Tag+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
