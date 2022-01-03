@@ -10,18 +10,23 @@ import CoreData
 
 struct AddQuestionView: View {
     
-    var context: NSManagedObjectContext
-    let category: Category
+    let category: CategoryViewModel
+    @Environment(\.presentationMode) var presentationMode
+    @StateObject private var addQuestionVM = AddQuestionViewModel()
+
+
+    
+//    var context: NSManagedObjectContext
+//    let category: Category
 
 //    @Environment(\.managedObjectContext) var context: NSManagedObjectContext
 
 //    @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Category.name, ascending: true)], animation: .default)
 //    private var catagories: FetchedResults<Category>
     
-    @State private var newQuestion: String = ""
-    @State private var newAnswer: String = ""
-    @Environment(\.presentationMode) var presentationMode
-    @EnvironmentObject var record: ObservedRecord
+//    @State private var newQuestion: String = ""
+//    @State private var newAnswer: String = ""
+//    @EnvironmentObject var record: ObservedRecord
     
 //    @State var selectedCategory: Category
     
@@ -38,11 +43,11 @@ struct AddQuestionView: View {
             }
             .padding(.trailing)
           }
-          TextField("New Question", text: $newQuestion)
+          TextField("New Question", text: $addQuestionVM.question)
             .disableAutocorrection(true)
             .textFieldStyle(RoundedBorderTextFieldStyle())
             .padding()
-            TextField("New Answer", text: $newAnswer)
+            TextField("New Answer", text: $addQuestionVM.answer)
               .disableAutocorrection(true)
               .textFieldStyle(RoundedBorderTextFieldStyle())
               .padding()
@@ -58,20 +63,41 @@ struct AddQuestionView: View {
     }
     
     private func onSaveTapped() {
-        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+        
+        if (self.addQuestionVM.question.isEmpty) {
+            return
+        }
+        else if (self.addQuestionVM.answer.isEmpty) {
+            return
+        }
+        
+        addQuestionVM.save()
+        
+        self.presentationMode.wrappedValue.dismiss()
+    }
+    
+    private func onCancelTapped() {
+        self.presentationMode.wrappedValue.dismiss()
+    }
+
+    
+    
+    
+//    private func onSaveTapped() {
+//        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
         
         
-        let newRecord = Record(context: self.context)
+//        let newRecord = Record(context: self.context)
 //        let newCategory = Category(context: self.context)
 //        newCategory.addToRecord(<#T##value: Record##Record#>)
 //        let newTag = Tag(context: self.context)
 //        newTag.name = "Prophecy"
 //        newTag.id = UUID()
         
-        newRecord.answer = self.newAnswer
-        newRecord.id = UUID()
-        newRecord.question = self.newQuestion
-        newRecord.category = category
+//        newRecord.answer = self.newAnswer
+//        newRecord.id = UUID()
+//        newRecord.question = self.newQuestion
+//        newRecord.category = category
 //        newRecord.tag = newTag
 //        category.addToRecord(newRecord)
 //        newRecord.category = Category(context: self.context)
@@ -92,23 +118,23 @@ struct AddQuestionView: View {
    [self.aRecord setCategory:category];
          */
         
-        do {
-            try context.save()
-        } catch let error as NSError {
-            print(error.localizedDescription)
-        }
-        
-        self.presentationMode.wrappedValue.dismiss()
-    }
-    
-    private func onCancelTapped() {
-        self.presentationMode.wrappedValue.dismiss()
-    }
-}
+//        do {
+//            try context.save()
+//        } catch let error as NSError {
+//            print(error.localizedDescription)
+//        }
+//
+//        self.presentationMode.wrappedValue.dismiss()
+//    }
+//
+//    private func onCancelTapped() {
+//        self.presentationMode.wrappedValue.dismiss()
+//    }
+//}
 
 //struct AddQuestionView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        let stack = PersistenceController()
 //        AddQuestionView(context: stack.container.viewContext)
 //    }
-//}
+}
