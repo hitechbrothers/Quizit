@@ -41,11 +41,15 @@ struct PersistenceController {
                 * The store could not be migrated to the current model version.
                 Check the error message to determine what the actual problem was.
                 */
-                fatalError("Unresolved error \(error), \(error.userInfo)")
+                fatalError("Core Data Store failed to initialize \(error), \(error.userInfo)") //remove before shipping see above
             }
         })
     }
     
+    var viewContext: NSManagedObjectContext {
+        return container.viewContext
+    }
+        
     func save() {
         let context = container.viewContext
 

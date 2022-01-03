@@ -10,9 +10,8 @@ import CoreData
 
 struct AddTagView: View {
     
-    var context: NSManagedObjectContext
-    @State private var newTag: String = ""
     @Environment(\.presentationMode) var presentationMode
+    @StateObject private var addTagVM = AddTagViewModel()
     
     var body: some View {
         VStack {
@@ -25,7 +24,7 @@ struct AddTagView: View {
                 Button(action: self.onSaveTapped) {Text("Save")}
                     .padding(.trailing)
             }
-            TextField("New Tag", text: $newTag)
+            TextField("New Tag", text: $addTagVM.name)
                 .disableAutocorrection(true)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
@@ -36,20 +35,11 @@ struct AddTagView: View {
     
     private func onSaveTapped() {
         
-        if (self.newTag.isEmpty)
-            {return}
-        
-        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-        
-        let newTag = Tag(context: self.context)
-        newTag.name = self.newTag
-        newTag.id = UUID()
-        
-        do {
-            try context.save()
-        } catch let error as NSError {
-            print(error.localizedDescription)
+        if (self.addTagVM.name.isEmpty) {
+            return
         }
+        
+        addTagVM.save()
         
         self.presentationMode.wrappedValue.dismiss()
     }
@@ -61,7 +51,6 @@ struct AddTagView: View {
 
 struct AddTagView_Previews: PreviewProvider {
     static var previews: some View {
-        let stack = PersistenceController()
-        AddTagView(context: stack.container.viewContext)
+        AddTagView()
     }
 }

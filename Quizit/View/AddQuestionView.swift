@@ -64,12 +64,15 @@ struct AddQuestionView: View {
         let newRecord = Record(context: self.context)
 //        let newCategory = Category(context: self.context)
 //        newCategory.addToRecord(<#T##value: Record##Record#>)
+//        let newTag = Tag(context: self.context)
+//        newTag.name = "Prophecy"
+//        newTag.id = UUID()
         
         newRecord.answer = self.newAnswer
         newRecord.id = UUID()
         newRecord.question = self.newQuestion
         newRecord.category = category
-//        newRecord.tag = //something
+//        newRecord.tag = newTag
 //        category.addToRecord(newRecord)
 //        newRecord.category = Category(context: self.context)
         

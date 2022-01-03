@@ -21,37 +21,42 @@
 		E0259ACA25FAFBB200131564 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013147425C7EE260024EF84 /* Persistence.swift */; };
 		E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E013147425C7EE260024EF84 /* Persistence.swift */; };
 		E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0259ACF25FB06A200131564 /* AddCategoryView.swift */; };
+		E028776E270399DC0050BDAD /* TagQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028776D270399DC0050BDAD /* TagQuestionsView.swift */; };
+		E028777227039B230050BDAD /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028777127039B230050BDAD /* CategoryListView.swift */; };
 		E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */; };
+		E04F8E15273C81B1007CBFCB /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F8E14273C81B1007CBFCB /* BaseModel.swift */; };
+		E04F8E16273C84A8007CBFCB /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8E2728EFF200286BA7 /* Category+CoreDataClass.swift */; };
+		E04F8E17273C84A9007CBFCB /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8E2728EFF200286BA7 /* Category+CoreDataClass.swift */; };
+		E04F8E18273C84AC007CBFCB /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8C2728EFF200286BA7 /* Record+CoreDataClass.swift */; };
+		E04F8E19273C84AC007CBFCB /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8C2728EFF200286BA7 /* Record+CoreDataClass.swift */; };
+		E04F8E1A273C84AF007CBFCB /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B902728EFF200286BA7 /* Tag+CoreDataClass.swift */; };
+		E04F8E1B273C84B0007CBFCB /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B902728EFF200286BA7 /* Tag+CoreDataClass.swift */; };
+		E04F8E1C273C84BA007CBFCB /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8D2728EFF200286BA7 /* Category+CoreDataProperties.swift */; };
+		E04F8E1E273C84BE007CBFCB /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8F2728EFF200286BA7 /* Record+CoreDataProperties.swift */; };
+		E04F8E1F273C84BE007CBFCB /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8F2728EFF200286BA7 /* Record+CoreDataProperties.swift */; };
+		E04F8E20273C84C1007CBFCB /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8B2728EFF100286BA7 /* Tag+CoreDataProperties.swift */; };
+		E04F8E21273C84C2007CBFCB /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8B2728EFF100286BA7 /* Tag+CoreDataProperties.swift */; };
+		E04F8E22273C84D6007CBFCB /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F8E14273C81B1007CBFCB /* BaseModel.swift */; };
+		E04F8E23273C84D7007CBFCB /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F8E14273C81B1007CBFCB /* BaseModel.swift */; };
+		E04F8E25273C9766007CBFCB /* CategoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F8E24273C9766007CBFCB /* CategoryListViewModel.swift */; };
+		E0542B912728EFF200286BA7 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8B2728EFF100286BA7 /* Tag+CoreDataProperties.swift */; };
+		E0542B922728EFF200286BA7 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8C2728EFF200286BA7 /* Record+CoreDataClass.swift */; };
+		E0542B932728EFF200286BA7 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8D2728EFF200286BA7 /* Category+CoreDataProperties.swift */; };
+		E0542B942728EFF200286BA7 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8E2728EFF200286BA7 /* Category+CoreDataClass.swift */; };
+		E0542B952728EFF200286BA7 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8F2728EFF200286BA7 /* Record+CoreDataProperties.swift */; };
+		E0542B962728EFF200286BA7 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B902728EFF200286BA7 /* Tag+CoreDataClass.swift */; };
 		E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBD725DB4599000619DA /* CategoryDetailView.swift */; };
 		E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE225DB461A000619DA /* CategoryDetailView.swift */; };
-		E059EBE625DB461B000619DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE325DB461B000619DA /* ContentView.swift */; };
 		E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE425DB461B000619DA /* AddCategoryView.swift */; };
 		E05A31232696110D0087FB16 /* AddTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A31222696110D0087FB16 /* AddTagView.swift */; };
-		E05BB26526F8119B00EE8228 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */; };
-		E05BB26626F8119B00EE8228 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */; };
-		E05BB26726F8119B00EE8228 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */; };
-		E05BB26826F8119B00EE8228 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */; };
-		E05BB26926F8119B00EE8228 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */; };
-		E05BB26A26F8119B00EE8228 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */; };
-		E05BB26B26F811A400EE8228 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */; };
-		E05BB26C26F811A500EE8228 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */; };
-		E05BB26D26F811A900EE8228 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */; };
-		E05BB26E26F811AB00EE8228 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */; };
-		E05BB26F26F811AE00EE8228 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */; };
-		E05BB27026F811AF00EE8228 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */; };
-		E05BB27126F811B300EE8228 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */; };
-		E05BB27226F811B400EE8228 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */; };
-		E05BB27326F811B700EE8228 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */; };
-		E05BB27426F811B800EE8228 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */; };
-		E05BB27526F811BC00EE8228 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */; };
-		E05BB27626F811BD00EE8228 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */; };
 		E069C09825C885A20049E945 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E069C09725C885A20049E945 /* CloudKit.framework */; };
+		E06B6EE227570B220034166D /* AddTagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06B6EE127570B220034166D /* AddTagViewModel.swift */; };
 		E0729CA5269F758C000124CB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0729CA4269F758C000124CB /* Settings.bundle */; };
 		E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = E0729CA9269F7B24000124CB /* MKiCloudSync.m */; };
 		E0876EA22605A7F600F32127 /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0876EA12605A7F600F32127 /* AddQuestionView.swift */; };
-		E0BF291B260867A20027D599 /* RecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF291A260867A20027D599 /* RecordType.swift */; };
-		E0BF291C2608683E0027D599 /* RecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF291A260867A20027D599 /* RecordType.swift */; };
-		E0BF291D2608683F0027D599 /* RecordType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BF291A260867A20027D599 /* RecordType.swift */; };
+		E088DCAF275E8CED0069C243 /* TagQuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E088DCAE275E8CED0069C243 /* TagQuestionsViewModel.swift */; };
+		E093F96C27631AAB00C3E5EB /* AddQuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093F96B27631AAB00C3E5EB /* AddQuestionViewModel.swift */; };
+		E09A7BFA2742E6DB0016577D /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0542B8D2728EFF200286BA7 /* Category+CoreDataProperties.swift */; };
 		E0C74C3025F84740001A3B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C74C2F25F84740001A3B64 /* Assets.xcassets */; };
 		E0C74C3725F84740001A3B64 /* Quizit-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E0C74C3625F84740001A3B64 /* Quizit-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E0C74C3C25F84740001A3B64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C74C3B25F84740001A3B64 /* ContentView.swift */; };
@@ -62,9 +67,10 @@
 		E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */; };
 		E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */; };
 		E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
-		E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
-		E0E71EC425FC888200FBA887 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E71EC125FC888200FBA887 /* AnswerView.swift */; };
 		E0E8F81B269FABC100DA9F3A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8F81A269FABC100DA9F3A /* UserSettings.swift */; };
+		E0ECC02E274C146F000F043E /* AddCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECC02D274C146F000F043E /* AddCategoryViewModel.swift */; };
+		E0ECC032274C3469000F043E /* CategoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECC031274C3469000F043E /* CategoryDetailViewModel.swift */; };
+		E0FACC8F274EBC490021E25D /* TagInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FACC8E274EBC490021E25D /* TagInfoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,27 +133,32 @@
 		E01314D425C7F64B0024EF84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E01314D525C7F64B0024EF84 /* Quizit_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quizit_macOS.entitlements; sourceTree = "<group>"; };
 		E0259ACF25FB06A200131564 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		E028776D270399DC0050BDAD /* TagQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagQuestionsView.swift; sourceTree = "<group>"; };
+		E028777127039B230050BDAD /* CategoryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
 		E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInfoView.swift; sourceTree = "<group>"; };
+		E04F8E14273C81B1007CBFCB /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		E04F8E24273C9766007CBFCB /* CategoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewModel.swift; sourceTree = "<group>"; };
+		E0542B8B2728EFF100286BA7 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0542B8C2728EFF200286BA7 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E0542B8D2728EFF200286BA7 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0542B8E2728EFF200286BA7 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E0542B8F2728EFF200286BA7 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E0542B902728EFF200286BA7 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
 		E059EBD725DB4599000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E059EBE225DB461A000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
-		E059EBE325DB461B000619DA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E059EBE425DB461B000619DA /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		E05A31222696110D0087FB16 /* AddTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagView.swift; sourceTree = "<group>"; };
-		E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E069C09725C885A20049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		E069C09A25C885F10049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		E06B6EE127570B220034166D /* AddTagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagViewModel.swift; sourceTree = "<group>"; };
 		E0729CA4269F758C000124CB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E0729CA7269F7B23000124CB /* Quizit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizit-Bridging-Header.h"; sourceTree = "<group>"; };
 		E0729CA8269F7B23000124CB /* Quizit-watchOS Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizit-watchOS Extension-Bridging-Header.h"; sourceTree = "<group>"; };
 		E0729CA9269F7B24000124CB /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
 		E0729CAA269F7B24000124CB /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
 		E0876EA12605A7F600F32127 /* AddQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
-		E0BF291A260867A20027D599 /* RecordType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordType.swift; sourceTree = "<group>"; };
+		E088DCAE275E8CED0069C243 /* TagQuestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagQuestionsViewModel.swift; sourceTree = "<group>"; };
+		E093F96B27631AAB00C3E5EB /* AddQuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionViewModel.swift; sourceTree = "<group>"; };
 		E0C74C2D25F8473F001A3B64 /* Quizit-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizit-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C74C2F25F84740001A3B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0C74C3125F84740001A3B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -160,6 +171,9 @@
 		E0D96B8C2629021D000BF675 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E0E71EC125FC888200FBA887 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 		E0E8F81A269FABC100DA9F3A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		E0ECC02D274C146F000F043E /* AddCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewModel.swift; sourceTree = "<group>"; };
+		E0ECC031274C3469000F043E /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
+		E0FACC8E274EBC490021E25D /* TagInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInfoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,9 +209,9 @@
 			children = (
 				E05BB77325D7936B00AA5A09 /* Shared */,
 				E013146A25C7EE230024EF84 /* Quizit */,
-				E01314C525C7F6430024EF84 /* Quizit-macOS */,
 				E0C74C2E25F8473F001A3B64 /* Quizit-watchOS */,
 				E0C74C3A25F84740001A3B64 /* Quizit-watchOS Extension */,
+				E01314C525C7F6430024EF84 /* Quizit-macOS */,
 				E0729CA6269F75B5000124CB /* Resources */,
 				E013146925C7EE230024EF84 /* Products */,
 				E013148325C7EECE0024EF84 /* Frameworks */,
@@ -218,8 +232,8 @@
 		E013146A25C7EE230024EF84 /* Quizit */ = {
 			isa = PBXGroup;
 			children = (
-				E0CD142926080D24006A51F2 /* Model */,
-				E059EBE125DB45FB000619DA /* Views */,
+				E0542BA42728F1D000286BA7 /* ViewModel */,
+				E059EBE125DB45FB000619DA /* View */,
 				E013147125C7EE260024EF84 /* Preview Content */,
 				E013148125C7EEAC0024EF84 /* Quizit.entitlements */,
 				E013146F25C7EE260024EF84 /* Assets.xcassets */,
@@ -276,6 +290,20 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E0542BA42728F1D000286BA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E04F8E24273C9766007CBFCB /* CategoryListViewModel.swift */,
+				E0ECC02D274C146F000F043E /* AddCategoryViewModel.swift */,
+				E0ECC031274C3469000F043E /* CategoryDetailViewModel.swift */,
+				E0FACC8E274EBC490021E25D /* TagInfoViewModel.swift */,
+				E06B6EE127570B220034166D /* AddTagViewModel.swift */,
+				E088DCAE275E8CED0069C243 /* TagQuestionsViewModel.swift */,
+				E093F96B27631AAB00C3E5EB /* AddQuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E059EBD025DB4531000619DA /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,17 +314,19 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		E059EBE125DB45FB000619DA /* Views */ = {
+		E059EBE125DB45FB000619DA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E059EBE325DB461B000619DA /* ContentView.swift */,
-				E059EBE225DB461A000619DA /* CategoryDetailView.swift */,
+				E028777127039B230050BDAD /* CategoryListView.swift */,
 				E059EBE425DB461B000619DA /* AddCategoryView.swift */,
-				E0876EA12605A7F600F32127 /* AddQuestionView.swift */,
+				E059EBE225DB461A000619DA /* CategoryDetailView.swift */,
 				E03CFD9A2693CCDB00FE622C /* TagInfoView.swift */,
 				E05A31222696110D0087FB16 /* AddTagView.swift */,
+				E028776D270399DC0050BDAD /* TagQuestionsView.swift */,
+				E0876EA12605A7F600F32127 /* AddQuestionView.swift */,
+				E0E71EC125FC888200FBA887 /* AnswerView.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		E05BB77325D7936B00AA5A09 /* Shared */ = {
@@ -305,8 +335,7 @@
 				E013146B25C7EE230024EF84 /* QuizitApp.swift */,
 				E013147425C7EE260024EF84 /* Persistence.swift */,
 				E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */,
-				E0E71EC125FC888200FBA887 /* AnswerView.swift */,
-				E0BF291A260867A20027D599 /* RecordType.swift */,
+				E0CD142926080D24006A51F2 /* Model */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -356,12 +385,13 @@
 		E0CD142926080D24006A51F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E05BB25F26F8119B00EE8228 /* Tag+CoreDataClass.swift */,
-				E05BB26026F8119B00EE8228 /* Tag+CoreDataProperties.swift */,
-				E05BB26126F8119B00EE8228 /* Record+CoreDataClass.swift */,
-				E05BB26226F8119B00EE8228 /* Record+CoreDataProperties.swift */,
-				E05BB26326F8119B00EE8228 /* Category+CoreDataClass.swift */,
-				E05BB26426F8119B00EE8228 /* Category+CoreDataProperties.swift */,
+				E04F8E14273C81B1007CBFCB /* BaseModel.swift */,
+				E0542B8E2728EFF200286BA7 /* Category+CoreDataClass.swift */,
+				E0542B8D2728EFF200286BA7 /* Category+CoreDataProperties.swift */,
+				E0542B8C2728EFF200286BA7 /* Record+CoreDataClass.swift */,
+				E0542B8F2728EFF200286BA7 /* Record+CoreDataProperties.swift */,
+				E0542B902728EFF200286BA7 /* Tag+CoreDataClass.swift */,
+				E0542B8B2728EFF100286BA7 /* Tag+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -529,25 +559,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0ECC02E274C146F000F043E /* AddCategoryViewModel.swift in Sources */,
 				E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */,
+				E0542B942728EFF200286BA7 /* Category+CoreDataClass.swift in Sources */,
+				E04F8E15273C81B1007CBFCB /* BaseModel.swift in Sources */,
 				E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */,
 				E0876EA22605A7F600F32127 /* AddQuestionView.swift in Sources */,
-				E059EBE625DB461B000619DA /* ContentView.swift in Sources */,
 				E013147525C7EE260024EF84 /* Persistence.swift in Sources */,
+				E06B6EE227570B220034166D /* AddTagViewModel.swift in Sources */,
 				E013147825C7EE260024EF84 /* Quizit.xcdatamodeld in Sources */,
-				E05BB26526F8119B00EE8228 /* Tag+CoreDataClass.swift in Sources */,
-				E05BB26926F8119B00EE8228 /* Category+CoreDataClass.swift in Sources */,
+				E028777227039B230050BDAD /* CategoryListView.swift in Sources */,
+				E0542B962728EFF200286BA7 /* Tag+CoreDataClass.swift in Sources */,
 				E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */,
-				E05BB26826F8119B00EE8228 /* Record+CoreDataProperties.swift in Sources */,
-				E05BB26726F8119B00EE8228 /* Record+CoreDataClass.swift in Sources */,
+				E0542B912728EFF200286BA7 /* Tag+CoreDataProperties.swift in Sources */,
+				E0ECC032274C3469000F043E /* CategoryDetailViewModel.swift in Sources */,
+				E028776E270399DC0050BDAD /* TagQuestionsView.swift in Sources */,
 				E0E8F81B269FABC100DA9F3A /* UserSettings.swift in Sources */,
 				E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */,
 				E05A31232696110D0087FB16 /* AddTagView.swift in Sources */,
-				E05BB26A26F8119B00EE8228 /* Category+CoreDataProperties.swift in Sources */,
-				E05BB26626F8119B00EE8228 /* Tag+CoreDataProperties.swift in Sources */,
+				E0542B922728EFF200286BA7 /* Record+CoreDataClass.swift in Sources */,
+				E0542B952728EFF200286BA7 /* Record+CoreDataProperties.swift in Sources */,
+				E093F96C27631AAB00C3E5EB /* AddQuestionViewModel.swift in Sources */,
 				E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */,
 				E013146C25C7EE230024EF84 /* QuizitApp.swift in Sources */,
-				E0BF291B260867A20027D599 /* RecordType.swift in Sources */,
+				E0FACC8F274EBC490021E25D /* TagInfoViewModel.swift in Sources */,
+				E04F8E25273C9766007CBFCB /* CategoryListViewModel.swift in Sources */,
+				E0542B932728EFF200286BA7 /* Category+CoreDataProperties.swift in Sources */,
+				E088DCAF275E8CED0069C243 /* TagQuestionsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,19 +593,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0BF291D2608683F0027D599 /* RecordType.swift in Sources */,
-				E05BB27526F811BC00EE8228 /* Category+CoreDataProperties.swift in Sources */,
-				E05BB27326F811B700EE8228 /* Category+CoreDataClass.swift in Sources */,
+				E04F8E1E273C84BE007CBFCB /* Record+CoreDataProperties.swift in Sources */,
 				E006498525F336AA00D43F87 /* AddCategoryView.swift in Sources */,
-				E05BB26B26F811A400EE8228 /* Tag+CoreDataClass.swift in Sources */,
+				E04F8E1C273C84BA007CBFCB /* Category+CoreDataProperties.swift in Sources */,
+				E04F8E16273C84A8007CBFCB /* Category+CoreDataClass.swift in Sources */,
+				E04F8E1A273C84AF007CBFCB /* Tag+CoreDataClass.swift in Sources */,
 				E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */,
-				E0E71EC325FC888200FBA887 /* AnswerView.swift in Sources */,
+				E04F8E22273C84D6007CBFCB /* BaseModel.swift in Sources */,
+				E04F8E18273C84AC007CBFCB /* Record+CoreDataClass.swift in Sources */,
+				E04F8E20273C84C1007CBFCB /* Tag+CoreDataProperties.swift in Sources */,
 				E0259ACA25FAFBB200131564 /* Persistence.swift in Sources */,
 				E013369725C7FEDE0024EF84 /* Quizit.xcdatamodeld in Sources */,
 				E01314C925C7F6430024EF84 /* ContentView.swift in Sources */,
-				E05BB27126F811B300EE8228 /* Record+CoreDataProperties.swift in Sources */,
-				E05BB26F26F811AE00EE8228 /* Record+CoreDataClass.swift in Sources */,
-				E05BB26D26F811A900EE8228 /* Tag+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,19 +612,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0BF291C2608683E0027D599 /* RecordType.swift in Sources */,
-				E05BB27626F811BD00EE8228 /* Category+CoreDataProperties.swift in Sources */,
-				E05BB27426F811B800EE8228 /* Category+CoreDataClass.swift in Sources */,
+				E04F8E1F273C84BE007CBFCB /* Record+CoreDataProperties.swift in Sources */,
 				E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */,
-				E05BB26C26F811A500EE8228 /* Tag+CoreDataClass.swift in Sources */,
+				E04F8E17273C84A9007CBFCB /* Category+CoreDataClass.swift in Sources */,
+				E04F8E1B273C84B0007CBFCB /* Tag+CoreDataClass.swift in Sources */,
 				E0C74C3C25F84740001A3B64 /* ContentView.swift in Sources */,
-				E0E71EC425FC888200FBA887 /* AnswerView.swift in Sources */,
+				E04F8E23273C84D7007CBFCB /* BaseModel.swift in Sources */,
+				E04F8E19273C84AC007CBFCB /* Record+CoreDataClass.swift in Sources */,
+				E09A7BFA2742E6DB0016577D /* Category+CoreDataProperties.swift in Sources */,
+				E04F8E21273C84C2007CBFCB /* Tag+CoreDataProperties.swift in Sources */,
 				E0C74C5F25F84AD2001A3B64 /* Quizit.xcdatamodeld in Sources */,
 				E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */,
 				E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */,
-				E05BB27226F811B400EE8228 /* Record+CoreDataProperties.swift in Sources */,
-				E05BB27026F811AF00EE8228 /* Record+CoreDataClass.swift in Sources */,
-				E05BB26E26F811AB00EE8228 /* Tag+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

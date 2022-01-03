@@ -24,7 +24,7 @@ struct QuizitApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CategoryListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
         .onChange(of: scenePhase) { _ in
