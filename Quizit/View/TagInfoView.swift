@@ -28,7 +28,7 @@ struct TagInfoView: View {
             }, content: {
                 AddTagView()
             })
-            .navigationBarTitle("Info", displayMode: .inline)
+            .navigationBarTitle("Tags", displayMode: .inline)
             .navigationBarItems(leading: Button(action: self.onCancelTapped) {Text("Cancel")}, trailing: Button(action: addTapped) {Text("Add")})
             .onAppear(perform: {
                 tagInfoVM.getallTags()

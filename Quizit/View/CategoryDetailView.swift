@@ -10,12 +10,12 @@ import CoreData
 
 struct CategoryDetailView: View {
         
-    let category: CategoryViewModel
+    let categoryVM: CategoryViewModel
     @State private var categoryDetailVM = CategoryDetailViewModel()
     @State var isTagQuestionPresented: Bool = false
     @State var isAnswerPresented: Bool = false
     @State var isTagInfoPresented: Bool = false
-    @ObservedObject var settings = UserSettings()
+//    @ObservedObject var settings = UserSettings()
     
     var body: some View {
         NavigationView {
@@ -23,23 +23,34 @@ struct CategoryDetailView: View {
                 
                 /* test area for settings*/
 
-                Toggle(isOn: $settings.isRandom) {
-                    Text("Random")
-                }
-                .padding()
+//                Toggle(isOn: $settings.isRandom) {
+//                    Text("Random")
+//                }
+//                .padding()
 
                 /* end test area for settings */
                 
 
                 List {
+                    let record = categoryDetailVM.getRecord(categoryVM: categoryVM)
+
                     HStack {
                         Button(action: {
                             self.isTagQuestionPresented = true
                         }) {
                             HStack {
 //                                Text(tag!.name ?? "<no_tag>")
-                                Text("Some tag")
-                                    .foregroundColor(.blue)
+//                                Text("Some tag")
+//                                Text(record.tags!.name ?? "<no_tag>")
+//                                Text(record!.tags!.name ?? "<no_tag>")
+                                if let record = record {
+                                    Text(record.tags!.name!)
+                                        .foregroundColor(.blue)
+                                }
+                                else {
+                                    Text("<no_tag>")
+                                        .foregroundColor(.blue)
+                                }
                             }
                         }
                     }
@@ -53,19 +64,38 @@ struct CategoryDetailView: View {
                     }
                     .padding(5)
 
-                    let record = categoryDetailVM.getRandomRecord()
-
-                    Text(record.question ?? "<no_question>")
-                    Text(record.category?.name ?? "<no_category>")
+//                    Text(record.question ?? "<no_question>")
+//                    Text(record.category?.name ?? "<no_category>")
+                    
+                    if let record = record {
+                        Text(record.question!)
+                    }
+                    else {
+                        Text("<no_question>")
+                    }
+                    
+                    if let record = record {
+                        Text(record.category!.name!)
+                    }
+                    else {
+                        Text("<no_category>")
+                    }
                 }
                 .sheet(isPresented: $isTagQuestionPresented) {
-                    TagQuestionsView(category: category)
+                    TagQuestionsView(categoryVM: categoryVM)
                 }
                 .sheet(isPresented: $isTagInfoPresented) {
                     TagInfoView()
                 }
+                .sheet(isPresented: $isAnswerPresented) {
+                    AnswerView()
+                }
+                
+                Button(action: {
+                    self.isAnswerPresented = true
+                }) {Text("Answer")}
             }
-            .navigationBarTitle(Text(category.name))
+            .navigationBarTitle(Text(categoryVM.name))
         }
         .navigationBarItems(
             trailing:
@@ -83,6 +113,6 @@ struct CategoryDetail_Previews: PreviewProvider {
     let category: CategoryViewModel
     
     static var previews: some View {
-        CategoryDetailView(category: CategoryViewModel(category: Category(context: Category.viewContext)))
+        CategoryDetailView(categoryVM: CategoryViewModel(category: Category(context: Category.viewContext)))
     }
 }

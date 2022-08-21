@@ -10,7 +10,7 @@ import CoreData
 
 class AddCategoryViewModel: ObservableObject {
     
-    var name: String = ""
+    @Published var name: String = ""
     let id: UUID = UUID()
     
     func save() {

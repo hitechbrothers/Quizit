@@ -13,7 +13,8 @@ protocol BaseModel where Self: NSManagedObject {
     func save()
     func delete()
     static func byId<T: NSManagedObject>(id: NSManagedObjectID) -> T?
-    static func all<T: NSManagedObject>(orderBy attrName: String?, ascending: Bool) -> [T]
+    static func getByUUID<T: NSManagedObject>(with id: UUID?) -> T?
+    static func all<T: NSManagedObject>(orderBy attrName: String?, predicate: NSPredicate?, ascending: Bool) -> [T]
 }
 
 extension BaseModel {
@@ -49,7 +50,15 @@ extension BaseModel {
         }
     }
     
-    static func all<T>(orderBy attrName: String? = nil, ascending: Bool = true) -> [T] where T: NSManagedObject {
+    static func getByUUID<T: NSManagedObject>(with id: UUID?) -> T? {
+        guard let id = id else { return nil }
+        let request: NSFetchRequest<T> = NSFetchRequest(entityName: String(describing: T.self))
+        request.predicate = NSPredicate(format: "%K == %@", "id", id as CVarArg)
+        guard let items = try? viewContext.fetch(request) else { return nil }
+        return items.first
+    }
+    
+    static func all<T>(orderBy attrName: String? = nil, predicate: NSPredicate? = nil, ascending: Bool = true) -> [T] where T: NSManagedObject {
         
         /* Delete this stuff later
          
@@ -132,7 +141,14 @@ extension BaseModel {
         let fetchRequest: NSFetchRequest<T> = NSFetchRequest(entityName: String(describing: T.self))
         let sort = NSSortDescriptor(key: attrName, ascending: ascending)
         fetchRequest.sortDescriptors = [sort]
+        fetchRequest.predicate = predicate
 //        fetchRequest.predicate = NSPredicate(format: "%K LIKE %@", #keyPath(Record.category.name), category.name!)
+        
+//        if (String(describing: T.self) == "Record") {
+//            print("rightonbro")
+//            fetchRequest.predicate = NSPredicate(format: "%K == %@", #keyPath(Record.category.name), "Test 1")
+//        }
+        
         
         
 //        let fetchRequest: NSFetchRequest<Record> = Record.fetchRequest()

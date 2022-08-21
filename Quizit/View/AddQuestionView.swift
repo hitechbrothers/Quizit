@@ -10,10 +10,9 @@ import CoreData
 
 struct AddQuestionView: View {
     
-    let category: CategoryViewModel
+    let categoryVM: CategoryViewModel
     @Environment(\.presentationMode) var presentationMode
-    @StateObject private var addQuestionVM = AddQuestionViewModel()
-
+    @StateObject private var addQuestionVM = AddRecordViewModel()
 
     
 //    var context: NSManagedObjectContext
@@ -32,18 +31,18 @@ struct AddQuestionView: View {
     
     var body: some View {
         VStack {
-          HStack {
-            Button(action: self.onCancelTapped) {Text("Cancel")}
-            .padding(.leading)
-            Spacer()
-            Text("Add Question")
-            Spacer()
-            Button(action: self.onSaveTapped) {
-                Text("Save")
+            HStack {
+                Button(action: self.onCancelTapped) {Text("Cancel")}
+                .padding(.leading)
+                Spacer()
+                Text("Add Question")
+                Spacer()
+                Button(action: self.onSaveTapped) {
+                    Text("Save")
+                }
+                .padding(.trailing)
             }
-            .padding(.trailing)
-          }
-          TextField("New Question", text: $addQuestionVM.question)
+            TextField("New Question", text: $addQuestionVM.question)
             .disableAutocorrection(true)
             .textFieldStyle(RoundedBorderTextFieldStyle())
             .padding()
@@ -57,6 +56,7 @@ struct AddQuestionView: View {
 //                }
 //            }
 //            Text("You selected: \(selectedCategory.name!)")
+            
           Spacer()
         }
         .padding(.top, 25.0)
@@ -71,7 +71,7 @@ struct AddQuestionView: View {
             return
         }
         
-        addQuestionVM.save()
+        addQuestionVM.save(category: categoryVM.category)
         
         self.presentationMode.wrappedValue.dismiss()
     }

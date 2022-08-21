@@ -11,22 +11,25 @@ import CoreData
 
 
 extension Record {
-
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Record> {
-        return NSFetchRequest<Record>(entityName: "Record")
-    }
-
+    
     @NSManaged public var answer: String?
-    public var wrappedAnswer: String {  //wrap property to work with swiftui
+    public var wrappedAnswer: String {  //wrap property to work with swift
             answer ?? "Unknown Answer"
-        }
+    }
     @NSManaged public var id: UUID?
+//    public var wrappedId: UUID {  //experiment
+//        id ?? UUID()
+//    }
     @NSManaged public var question: String?
     public var wrappedQuestion: String {
             question ?? "Unknown Question"
-        }
+    }
     @NSManaged public var category: Category?
     @NSManaged public var tags: Tag?
+    
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Record> {
+        return NSFetchRequest<Record>(entityName: "Record")
+    }
 }
 
 // MARK: Generated accessors for tag

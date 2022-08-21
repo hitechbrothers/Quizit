@@ -10,7 +10,7 @@ import CoreData
 
 struct TagQuestionsView: View {
     
-    let category: CategoryViewModel
+    let categoryVM: CategoryViewModel
     @Environment(\.presentationMode) var presentationMode
     @StateObject private var tagQuestionsVM = TagQuestionsViewModel()
     @State var isAddFormPresented: Bool = false
@@ -28,7 +28,7 @@ struct TagQuestionsView: View {
             .sheet(isPresented: $isAddFormPresented, onDismiss: {
                 tagQuestionsVM.getallRecords()
             },  content: {
-                AddQuestionView(category: category)
+                AddQuestionView(categoryVM: categoryVM)
             })
             .navigationBarItems(leading: Button(action: self.onCancelTapped) {Text("Cancel")})
             .navigationBarTitle("Tag Selected", displayMode: .inline)
@@ -79,6 +79,6 @@ struct TagQuestionsView_Previews: PreviewProvider {
     
     static var previews: some View {
 //        TagQuestionsView(category: category)
-        TagQuestionsView(category: CategoryViewModel(category: Category(context: Category.viewContext)))
+        TagQuestionsView(categoryVM: CategoryViewModel(category: Category(context: Category.viewContext)))
     }
 }

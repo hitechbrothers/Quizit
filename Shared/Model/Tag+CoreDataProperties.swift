@@ -12,12 +12,7 @@ import CoreData
 
 extension Tag {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Tag> {
-        return NSFetchRequest<Tag>(entityName: "Tag")
-    }
-
     @NSManaged public var id: UUID?
-    
     @NSManaged public var name: String?
     public var wrappedName: String {
         name ?? "Unknown Tag"
@@ -29,6 +24,10 @@ extension Tag {
         return set.sorted {
             $0.wrappedQuestion < $1.wrappedQuestion
         }
+    }
+    
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Tag> {
+        return NSFetchRequest<Tag>(entityName: "Tag")
     }
 }
 

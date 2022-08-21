@@ -12,23 +12,21 @@ import CoreData
 
 extension Category {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Category> {
-        return NSFetchRequest<Category>(entityName: "Category")
-    }
-
     @NSManaged public var id: UUID?
-    
     @NSManaged public var name: String?
     public var wrappedName: String {
         name ?? "Unknown Category"
     }
-    
     @NSManaged public var records: NSSet?
     public var recordArray: [Record] {
         let set = records as? Set<Record> ?? []
         return set.sorted {
             $0.wrappedQuestion < $1.wrappedQuestion
         }
+    }
+    
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Category> {
+        return NSFetchRequest<Category>(entityName: "Category")
     }
 }
 

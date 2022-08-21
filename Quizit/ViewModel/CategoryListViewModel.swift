@@ -7,15 +7,16 @@
 
 import Foundation
 import CoreData
+import SwiftUI
 
 struct CategoryViewModel: Identifiable {
-    
-    let category: Category
-    
+
+    var category: Category = Category()
+
     var name: String {
         return category.name ?? ""
     }
-    
+
     var id: NSManagedObjectID {
         return category.objectID
     }

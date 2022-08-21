@@ -17,8 +17,8 @@ struct CategoryListView: View {
       NavigationView {
         
         List {
-          ForEach(categoryListVM.categories) { category in
-              CategoryCell(category: category)
+          ForEach(categoryListVM.categories) { categoryVM in
+              CategoryCell(categoryVM: categoryVM)
           }
           .onDelete(perform: deleteCategory)
         }
@@ -53,11 +53,11 @@ struct CategoryListView: View {
 
 struct CategoryCell: View {
     
-    let category: CategoryViewModel
+    let categoryVM: CategoryViewModel
     
     var body: some View {
-        NavigationLink(destination: CategoryDetailView(category: category)) {
-            Text(category.name)
+        NavigationLink(destination: CategoryDetailView(categoryVM: categoryVM)) {
+            Text(categoryVM.name)
         }
     }
 }
