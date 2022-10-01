@@ -10,6 +10,8 @@ import CoreData
 
 struct AnswerView: View {
 //    @Environment(\.managedObjectContext) var context: NSManagedObjectContext
+    
+//    let recordVM: RecordViewModel
 
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)

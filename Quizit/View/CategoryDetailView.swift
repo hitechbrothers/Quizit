@@ -30,9 +30,9 @@ struct CategoryDetailView: View {
 
                 /* end test area for settings */
                 
+                let record = categoryDetailVM.getRecord(categoryVM: categoryVM)
 
                 List {
-                    let record = categoryDetailVM.getRecord(categoryVM: categoryVM)
 
                     HStack {
                         Button(action: {
@@ -43,43 +43,62 @@ struct CategoryDetailView: View {
 //                                Text("Some tag")
 //                                Text(record.tags!.name ?? "<no_tag>")
 //                                Text(record!.tags!.name ?? "<no_tag>")
-                                if let record = record {
-                                    Text(record.tags!.name!)
-                                        .foregroundColor(.blue)
-                                }
-                                else {
-                                    Text("<no_tag>")
-                                        .foregroundColor(.blue)
-                                }
+                                let defaults = UserDefaults.standard
+                                let uuid_string = defaults.string(forKey: "tag_uuid")
+                                let tag: Tag? = Tag.getByUUID(with: UUID(uuidString: uuid_string!))
+                                let tagName: String = tag!.name!
+                                    
+                                    
+                                    if let record = record {
+                                        //                                    Text(record.tags!.name!)  //If your looking for a member of NSSet learn about NSSet
+                                        //                                    Text(record.category!.name!) //test
+                                        
+//                                        if record.tags!.contains(tagName) {
+                                        
+
+//                                        }
+                                        
+                                        //understand how the app work before deciding what to put here
+                                        Text(tagName) //If your looking for a member of NSSet learn about NSSet
+                                            .foregroundColor(.blue)
+                                        
+                                        
+                                    }
+                                    else {
+                                        Text("<no_tag>")
+                                            .foregroundColor(.blue)
+                                    }
+//                                }
                             }
                         }
                     }
                     .listRowBackground(Color(UIColor.lightGray))
                     
-                    HStack {
-                        Spacer()
+                    VStack {
                         Text("Question")
                             .bold()
-                        Spacer()
+                            .frame(maxWidth: .infinity, alignment: .center)
+                        
+                        if let record = record {
+                            Text(record.question!)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }
+                        else {
+                            Text("<no_question>")
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }
                     }
                     .padding(5)
 
 //                    Text(record.question ?? "<no_question>")
 //                    Text(record.category?.name ?? "<no_category>")
                     
-                    if let record = record {
-                        Text(record.question!)
-                    }
-                    else {
-                        Text("<no_question>")
-                    }
-                    
-                    if let record = record {
-                        Text(record.category!.name!)
-                    }
-                    else {
-                        Text("<no_category>")
-                    }
+//                    if let record = record {
+//                        Text(record.question!)
+//                    }
+//                    else {
+//                        Text("<no_question>")
+//                    }
                 }
                 .sheet(isPresented: $isTagQuestionPresented) {
                     TagQuestionsView(categoryVM: categoryVM)

@@ -64,9 +64,9 @@ struct RecordCell: View {
     let record: RecordViewModel
     
     var body: some View {
-//        NavigationLink(destination: CategoryDetailView(category: category)) {
-//            Text(record.category.name!)
-//        }
+        //        NavigationLink(destination: CategoryDetailView(category: category)) {
+        //            Text(record.category.name!)
+        //        }
         NavigationLink(destination: AnswerView()) { //fix later
             Text(record.question)
         }

@@ -2,7 +2,7 @@
 //  Record+CoreDataProperties.swift
 //  Quizit
 //
-//  Created by Diego Acevedo on 9/19/21.
+//  Created by Diego on 9/29/22.
 //
 //
 
@@ -12,43 +12,51 @@ import CoreData
 
 extension Record {
     
-    @NSManaged public var answer: String?
-    public var wrappedAnswer: String {  //wrap property to work with swift
-            answer ?? "Unknown Answer"
-    }
-    @NSManaged public var id: UUID?
-//    public var wrappedId: UUID {  //experiment
-//        id ?? UUID()
+//    @NSManaged public var answer: String?
+//    public var wrappedAnswer: String {  //wrap property to work with swift
+//        answer ?? "Unknown Answer"
 //    }
-    @NSManaged public var question: String?
-    public var wrappedQuestion: String {
-            question ?? "Unknown Question"
-    }
-    @NSManaged public var category: Category?
-    @NSManaged public var tags: Tag?
-    
+//    @NSManaged public var id: UUID?
+//    @NSManaged public var question: String?
+//    public var wrappedQuestion: String {
+//        question ?? "Unknown Question"
+//    }
+//    @NSManaged public var category: Category?
+//    @NSManaged public var tags: Tag?
+//
+//    @nonobjc public class func fetchRequest() -> NSFetchRequest<Record> {
+//        return NSFetchRequest<Record>(entityName: "Record")
+//    }
+
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Record> {
         return NSFetchRequest<Record>(entityName: "Record")
     }
+
+    @NSManaged public var answer: String?
+    @NSManaged public var id: UUID?
+    @NSManaged public var question: String?
+    @NSManaged public var category: Category?
+    @NSManaged public var tags: NSSet?
+
 }
 
-// MARK: Generated accessors for tag
+// MARK: Generated accessors for tags
 extension Record {
 
-    @objc(addTagObject:)
-    @NSManaged public func addToTag(_ value: Tag)
+    @objc(addTagsObject:)
+    @NSManaged public func addToTags(_ value: Tag)
 
-    @objc(removeTagObject:)
-    @NSManaged public func removeFromTag(_ value: Tag)
+    @objc(removeTagsObject:)
+    @NSManaged public func removeFromTags(_ value: Tag)
 
-    @objc(addTag:)
-    @NSManaged public func addToTag(_ values: NSSet)
+    @objc(addTags:)
+    @NSManaged public func addToTags(_ values: NSSet)
 
-    @objc(removeTag:)
-    @NSManaged public func removeFromTag(_ values: NSSet)
+    @objc(removeTags:)
+    @NSManaged public func removeFromTags(_ values: NSSet)
 
 }
 
-extension Record: BaseModel, Identifiable {
+extension Record : BaseModel, Identifiable {
 
 }

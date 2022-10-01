@@ -30,6 +30,24 @@
 		E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE225DB461A000619DA /* CategoryDetailView.swift */; };
 		E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059EBE425DB461B000619DA /* AddCategoryView.swift */; };
 		E05A31232696110D0087FB16 /* AddTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A31222696110D0087FB16 /* AddTagView.swift */; };
+		E05EDF1628E60504005D15A4 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1028E60504005D15A4 /* Record+CoreDataClass.swift */; };
+		E05EDF1728E60504005D15A4 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1028E60504005D15A4 /* Record+CoreDataClass.swift */; };
+		E05EDF1828E60504005D15A4 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1028E60504005D15A4 /* Record+CoreDataClass.swift */; };
+		E05EDF1928E60504005D15A4 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1128E60504005D15A4 /* Record+CoreDataProperties.swift */; };
+		E05EDF1A28E60504005D15A4 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1128E60504005D15A4 /* Record+CoreDataProperties.swift */; };
+		E05EDF1B28E60504005D15A4 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1128E60504005D15A4 /* Record+CoreDataProperties.swift */; };
+		E05EDF1C28E60504005D15A4 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1228E60504005D15A4 /* Tag+CoreDataClass.swift */; };
+		E05EDF1D28E60504005D15A4 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1228E60504005D15A4 /* Tag+CoreDataClass.swift */; };
+		E05EDF1E28E60504005D15A4 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1228E60504005D15A4 /* Tag+CoreDataClass.swift */; };
+		E05EDF1F28E60504005D15A4 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1328E60504005D15A4 /* Tag+CoreDataProperties.swift */; };
+		E05EDF2028E60504005D15A4 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1328E60504005D15A4 /* Tag+CoreDataProperties.swift */; };
+		E05EDF2128E60504005D15A4 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1328E60504005D15A4 /* Tag+CoreDataProperties.swift */; };
+		E05EDF2228E60504005D15A4 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1428E60504005D15A4 /* Category+CoreDataClass.swift */; };
+		E05EDF2328E60504005D15A4 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1428E60504005D15A4 /* Category+CoreDataClass.swift */; };
+		E05EDF2428E60504005D15A4 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1428E60504005D15A4 /* Category+CoreDataClass.swift */; };
+		E05EDF2528E60504005D15A4 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1528E60504005D15A4 /* Category+CoreDataProperties.swift */; };
+		E05EDF2628E60504005D15A4 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1528E60504005D15A4 /* Category+CoreDataProperties.swift */; };
+		E05EDF2728E60504005D15A4 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EDF1528E60504005D15A4 /* Category+CoreDataProperties.swift */; };
 		E069C09825C885A20049E945 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E069C09725C885A20049E945 /* CloudKit.framework */; };
 		E06B6EE227570B220034166D /* AddTagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06B6EE127570B220034166D /* AddTagViewModel.swift */; };
 		E0729CA5269F758C000124CB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0729CA4269F758C000124CB /* Settings.bundle */; };
@@ -53,24 +71,6 @@
 		E0F4761427F8F3C70043857B /* Quizit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */; };
 		E0F4761527F8F3C90043857B /* Quizit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E013147625C7EE260024EF84 /* Quizit.xcdatamodeld */; };
 		E0FACC8F274EBC490021E25D /* TagInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FACC8E274EBC490021E25D /* TagInfoViewModel.swift */; };
-		E0FFE79A288DA38400153922 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE794288DA38400153922 /* Record+CoreDataClass.swift */; };
-		E0FFE79B288DA38400153922 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE794288DA38400153922 /* Record+CoreDataClass.swift */; };
-		E0FFE79C288DA38400153922 /* Record+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE794288DA38400153922 /* Record+CoreDataClass.swift */; };
-		E0FFE79D288DA38400153922 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE795288DA38400153922 /* Record+CoreDataProperties.swift */; };
-		E0FFE79E288DA38400153922 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE795288DA38400153922 /* Record+CoreDataProperties.swift */; };
-		E0FFE79F288DA38400153922 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE795288DA38400153922 /* Record+CoreDataProperties.swift */; };
-		E0FFE7A0288DA38400153922 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE796288DA38400153922 /* Tag+CoreDataClass.swift */; };
-		E0FFE7A1288DA38400153922 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE796288DA38400153922 /* Tag+CoreDataClass.swift */; };
-		E0FFE7A2288DA38400153922 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE796288DA38400153922 /* Tag+CoreDataClass.swift */; };
-		E0FFE7A3288DA38400153922 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE797288DA38400153922 /* Tag+CoreDataProperties.swift */; };
-		E0FFE7A4288DA38400153922 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE797288DA38400153922 /* Tag+CoreDataProperties.swift */; };
-		E0FFE7A5288DA38400153922 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE797288DA38400153922 /* Tag+CoreDataProperties.swift */; };
-		E0FFE7A6288DA38400153922 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE798288DA38400153922 /* Category+CoreDataClass.swift */; };
-		E0FFE7A7288DA38400153922 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE798288DA38400153922 /* Category+CoreDataClass.swift */; };
-		E0FFE7A8288DA38400153922 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE798288DA38400153922 /* Category+CoreDataClass.swift */; };
-		E0FFE7A9288DA38400153922 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE799288DA38400153922 /* Category+CoreDataProperties.swift */; };
-		E0FFE7AA288DA38400153922 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE799288DA38400153922 /* Category+CoreDataProperties.swift */; };
-		E0FFE7AB288DA38400153922 /* Category+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FFE799288DA38400153922 /* Category+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +142,12 @@
 		E059EBE225DB461A000619DA /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		E059EBE425DB461B000619DA /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		E05A31222696110D0087FB16 /* AddTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagView.swift; sourceTree = "<group>"; };
+		E05EDF1028E60504005D15A4 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Record+CoreDataClass.swift"; path = "Shared/Model/Record+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E05EDF1128E60504005D15A4 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Record+CoreDataProperties.swift"; path = "Shared/Model/Record+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E05EDF1228E60504005D15A4 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataClass.swift"; path = "Shared/Model/Tag+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E05EDF1328E60504005D15A4 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Tag+CoreDataProperties.swift"; path = "Shared/Model/Tag+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		E05EDF1428E60504005D15A4 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataClass.swift"; path = "Shared/Model/Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		E05EDF1528E60504005D15A4 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Category+CoreDataProperties.swift"; path = "Shared/Model/Category+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E069C09725C885A20049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		E069C09A25C885F10049E945 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		E06B6EE127570B220034166D /* AddTagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagViewModel.swift; sourceTree = "<group>"; };
@@ -168,12 +174,6 @@
 		E0ECC02D274C146F000F043E /* AddCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewModel.swift; sourceTree = "<group>"; };
 		E0ECC031274C3469000F043E /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
 		E0FACC8E274EBC490021E25D /* TagInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagInfoViewModel.swift; sourceTree = "<group>"; };
-		E0FFE794288DA38400153922 /* Record+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E0FFE795288DA38400153922 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E0FFE796288DA38400153922 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E0FFE797288DA38400153922 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E0FFE798288DA38400153922 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E0FFE799288DA38400153922 /* Category+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,12 +386,12 @@
 			isa = PBXGroup;
 			children = (
 				E04F8E14273C81B1007CBFCB /* BaseModel.swift */,
-				E0FFE794288DA38400153922 /* Record+CoreDataClass.swift */,
-				E0FFE795288DA38400153922 /* Record+CoreDataProperties.swift */,
-				E0FFE796288DA38400153922 /* Tag+CoreDataClass.swift */,
-				E0FFE797288DA38400153922 /* Tag+CoreDataProperties.swift */,
-				E0FFE798288DA38400153922 /* Category+CoreDataClass.swift */,
-				E0FFE799288DA38400153922 /* Category+CoreDataProperties.swift */,
+				E05EDF1428E60504005D15A4 /* Category+CoreDataClass.swift */,
+				E05EDF1528E60504005D15A4 /* Category+CoreDataProperties.swift */,
+				E05EDF1028E60504005D15A4 /* Record+CoreDataClass.swift */,
+				E05EDF1128E60504005D15A4 /* Record+CoreDataProperties.swift */,
+				E05EDF1228E60504005D15A4 /* Tag+CoreDataClass.swift */,
+				E05EDF1328E60504005D15A4 /* Tag+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -562,30 +562,30 @@
 				E0ECC02E274C146F000F043E /* AddCategoryViewModel.swift in Sources */,
 				E059EBE725DB461B000619DA /* AddCategoryView.swift in Sources */,
 				E04F8E15273C81B1007CBFCB /* BaseModel.swift in Sources */,
-				E0FFE7A6288DA38400153922 /* Category+CoreDataClass.swift in Sources */,
+				E05EDF2228E60504005D15A4 /* Category+CoreDataClass.swift in Sources */,
 				E059EBE525DB461B000619DA /* CategoryDetailView.swift in Sources */,
 				E0876EA22605A7F600F32127 /* AddQuestionView.swift in Sources */,
 				E013147525C7EE260024EF84 /* Persistence.swift in Sources */,
 				E06B6EE227570B220034166D /* AddTagViewModel.swift in Sources */,
 				E028777227039B230050BDAD /* CategoryListView.swift in Sources */,
 				E0E71EC225FC888200FBA887 /* AnswerView.swift in Sources */,
-				E0FFE7A9288DA38400153922 /* Category+CoreDataProperties.swift in Sources */,
+				E05EDF2528E60504005D15A4 /* Category+CoreDataProperties.swift in Sources */,
 				E0ECC032274C3469000F043E /* CategoryDetailViewModel.swift in Sources */,
-				E0FFE7A0288DA38400153922 /* Tag+CoreDataClass.swift in Sources */,
+				E05EDF1C28E60504005D15A4 /* Tag+CoreDataClass.swift in Sources */,
 				E028776E270399DC0050BDAD /* TagQuestionsView.swift in Sources */,
 				E0F4761327F8F3C00043857B /* Quizit.xcdatamodeld in Sources */,
 				E0E8F81B269FABC100DA9F3A /* UserSettings.swift in Sources */,
 				E0729CAB269F7B24000124CB /* MKiCloudSync.m in Sources */,
 				E05A31232696110D0087FB16 /* AddTagView.swift in Sources */,
-				E0FFE7A3288DA38400153922 /* Tag+CoreDataProperties.swift in Sources */,
+				E05EDF1F28E60504005D15A4 /* Tag+CoreDataProperties.swift in Sources */,
 				E093F96C27631AAB00C3E5EB /* AddRecordViewModel.swift in Sources */,
-				E0FFE79A288DA38400153922 /* Record+CoreDataClass.swift in Sources */,
+				E05EDF1628E60504005D15A4 /* Record+CoreDataClass.swift in Sources */,
 				E03CFD9B2693CCDB00FE622C /* TagInfoView.swift in Sources */,
 				E013146C25C7EE230024EF84 /* QuizitApp.swift in Sources */,
 				E0FACC8F274EBC490021E25D /* TagInfoViewModel.swift in Sources */,
 				E04F8E25273C9766007CBFCB /* CategoryListViewModel.swift in Sources */,
 				E088DCAF275E8CED0069C243 /* TagQuestionsViewModel.swift in Sources */,
-				E0FFE79D288DA38400153922 /* Record+CoreDataProperties.swift in Sources */,
+				E05EDF1928E60504005D15A4 /* Record+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,13 +595,13 @@
 			files = (
 				E006498525F336AA00D43F87 /* AddCategoryView.swift in Sources */,
 				E0F4761427F8F3C70043857B /* Quizit.xcdatamodeld in Sources */,
-				E0FFE7A7288DA38400153922 /* Category+CoreDataClass.swift in Sources */,
+				E05EDF2328E60504005D15A4 /* Category+CoreDataClass.swift in Sources */,
 				E059EBD825DB4599000619DA /* CategoryDetailView.swift in Sources */,
-				E0FFE79B288DA38400153922 /* Record+CoreDataClass.swift in Sources */,
-				E0FFE7A1288DA38400153922 /* Tag+CoreDataClass.swift in Sources */,
-				E0FFE79E288DA38400153922 /* Record+CoreDataProperties.swift in Sources */,
-				E0FFE7AA288DA38400153922 /* Category+CoreDataProperties.swift in Sources */,
-				E0FFE7A4288DA38400153922 /* Tag+CoreDataProperties.swift in Sources */,
+				E05EDF1728E60504005D15A4 /* Record+CoreDataClass.swift in Sources */,
+				E05EDF1D28E60504005D15A4 /* Tag+CoreDataClass.swift in Sources */,
+				E05EDF1A28E60504005D15A4 /* Record+CoreDataProperties.swift in Sources */,
+				E05EDF2628E60504005D15A4 /* Category+CoreDataProperties.swift in Sources */,
+				E05EDF2028E60504005D15A4 /* Tag+CoreDataProperties.swift in Sources */,
 				E04F8E22273C84D6007CBFCB /* BaseModel.swift in Sources */,
 				E0259ACA25FAFBB200131564 /* Persistence.swift in Sources */,
 				E01314C925C7F6430024EF84 /* ContentView.swift in Sources */,
@@ -614,13 +614,13 @@
 			files = (
 				E0259AD025FB06A200131564 /* AddCategoryView.swift in Sources */,
 				E0C74C3C25F84740001A3B64 /* ContentView.swift in Sources */,
-				E0FFE7A8288DA38400153922 /* Category+CoreDataClass.swift in Sources */,
+				E05EDF2428E60504005D15A4 /* Category+CoreDataClass.swift in Sources */,
 				E0F4761527F8F3C90043857B /* Quizit.xcdatamodeld in Sources */,
-				E0FFE79C288DA38400153922 /* Record+CoreDataClass.swift in Sources */,
-				E0FFE7A2288DA38400153922 /* Tag+CoreDataClass.swift in Sources */,
-				E0FFE79F288DA38400153922 /* Record+CoreDataProperties.swift in Sources */,
-				E0FFE7AB288DA38400153922 /* Category+CoreDataProperties.swift in Sources */,
-				E0FFE7A5288DA38400153922 /* Tag+CoreDataProperties.swift in Sources */,
+				E05EDF1828E60504005D15A4 /* Record+CoreDataClass.swift in Sources */,
+				E05EDF1E28E60504005D15A4 /* Tag+CoreDataClass.swift in Sources */,
+				E05EDF1B28E60504005D15A4 /* Record+CoreDataProperties.swift in Sources */,
+				E05EDF2728E60504005D15A4 /* Category+CoreDataProperties.swift in Sources */,
+				E05EDF2128E60504005D15A4 /* Tag+CoreDataProperties.swift in Sources */,
 				E04F8E23273C84D7007CBFCB /* BaseModel.swift in Sources */,
 				E0259ACB25FAFBB500131564 /* Persistence.swift in Sources */,
 				E0D96B8D2629021D000BF675 /* CategoryDetailView.swift in Sources */,

@@ -94,20 +94,24 @@ class AddRecordViewModel: ObservableObject {
 
 //            var uuid = UUID(uuidString: uuid_string)
             
-//            let tag: Tag? = Tag.getByUUID(with: UUID(uuidString: uuid_string))
+            let tag: Tag? = Tag.getByUUID(with: UUID(uuidString: uuid_string))
             
             
             
             
 //            let tag: Tag? = getItem(with: UUID(uuidString: uuid_string))
-
             
+            /* test */
+            let tagName: String = tag!.name!
+            print(tagName)
+            /* end test*/
             
             let record = Record(context: Record.viewContext)
             record.question = self.question
             record.answer = self.answer
             record.id = self.id
             record.category = category
+            record.addToTags(tag!)
 //            record.tags = NSSet(tag)
             
 //            tag?.addToRecord(record)
@@ -223,4 +227,48 @@ class AddRecordViewModel: ObservableObject {
         guard let items = try? viewContext.fetch(request) else { return nil }
         return items.first
     }
+    
+//    func addRecordToCategoryAndTag(categoryId: NSManagedObjectID, tagId: NSManagedObjectID) {
+//        
+//        let category: Category? = Category.byId(id: categoryId)
+//        let tag: Tag? = Tag.byId(id: tagId)
+//        
+//        if let category = category {
+//            if let tag = tag {
+//                
+//                let record = Record(context: Record.viewContext)
+//                record.name = name
+//                record.addToCategory(category)
+//                
+//                record.question = self.question
+//                record.answer = self.answer
+//                record.id = self.id
+//                record.addToCategory(category)
+//                record.addToTags(tag)
+//                
+//                record.save()
+//            }
+//        }
+//    }
+//    
+//    func addRecordToCategoryAndTag(categoryId: NSManagedObjectID, tagId: NSManagedObjectID) {
+//        
+//        let category: Category? = Category.byId(id: categoryId)
+//        let tag: Tag? = Tag.byId(id: tagId)
+//        
+//        if let category = category {
+//            if let tag = tag {
+//                
+//                let record = Record(context: Record.viewContext)
+//                record.question = self.question
+//                record.answer = self.answer
+//                record.id = self.id
+//                record.category = category
+//                record.addToTags(tag)
+//                
+//                record.save()
+//            }
+//        }
+//    }
+
 }
