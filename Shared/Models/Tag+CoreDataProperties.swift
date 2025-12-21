@@ -1,0 +1,55 @@
+//
+//  Tag+CoreDataProperties.swift
+//  Quizit
+//
+//  Created by Diego on 9/29/22.
+//
+//
+
+import Foundation
+import CoreData
+
+
+extension Tag {
+
+    @NSManaged public var id: UUID?
+    @NSManaged public var name: String?
+    @NSManaged public var records: NSSet?
+    
+    public var wrappedName: String {
+        name ?? "Unknown Tag"
+    }
+    
+    public var recordArray: [Record] {
+        let set = records as? Set<Record> ?? []
+        
+        return set.sorted {
+            $0.wrappedQuestion < $1.wrappedQuestion
+        }
+    }
+
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<Tag> {
+        return NSFetchRequest<Tag>(entityName: "Tag")
+    }
+}
+
+// MARK: Generated accessors for records
+extension Tag {
+
+    @objc(addRecordsObject:)
+    @NSManaged public func addToRecords(_ value: Record)
+
+    @objc(removeRecordsObject:)
+    @NSManaged public func removeFromRecords(_ value: Record)
+
+    @objc(addRecords:)
+    @NSManaged public func addToRecords(_ values: NSSet)
+
+    @objc(removeRecords:)
+    @NSManaged public func removeFromRecords(_ values: NSSet)
+
+}
+
+extension Tag : BaseModel, Identifiable {
+    
+}
