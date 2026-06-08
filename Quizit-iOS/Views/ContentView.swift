@@ -9,14 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-//    @StateObject private var categoryListVM = CategoryListViewModel()
-    @State var categoriesOO = CategoriesOO()
-    @State var isAddFormPresented: Bool = false
+    @State private var categoriesOO = CategoriesViewModel()
+    @State private var isAddFormPresented: Bool = false
     
     var body: some View {
         NavigationStack {
             List {
-                ForEach(categoriesOO.categoriesDO, id: \.self) { categoryDO in
+                ForEach(categoriesOO.categories, id: \.self) { categoryDO in
                     NavigationLink {
                         CategoryDetailView(categoryDO: categoryDO)
                     } label: {
@@ -42,7 +41,7 @@ struct ContentView: View {
     
     private func deleteCategory(at indexSet: IndexSet) {
         indexSet.forEach { index in
-            let category = categoriesOO.categoriesDO[index]
+            let category = categoriesOO.categories[index]
             
             //delete the category
             categoriesOO.deleteCategory(category: category)

@@ -17,9 +17,9 @@ struct AnswerView: View {
     
 //    let recordAnswer: String
     
-    @Bindable var categoryDetailVM: CategoryDetailOO
+    @Bindable var categoryDetailVM: CategoryDetailViewModel
     let category: Category
-    @State var isAnswerPresented: Bool = true
+    @State private var isAnswerPresented: Bool = true
     @Environment(\.presentationMode) var presentationMode //test
 
 

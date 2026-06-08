@@ -11,6 +11,7 @@ import CoreData
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 //        MKiCloudSync.start(withPrefix: "sync")
+        UserDefaults.standard.register(defaults: ["isRandomTags" : false])
         return true
     }
 }
@@ -27,12 +28,10 @@ struct QuizitApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
-        .onChange(of: scenePhase) {
-            persistenceController.save()
-            
-            //Try this code
-            persistenceController.container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
-            persistenceController.container.viewContext.automaticallyMergesChangesFromParent = true
+        .onChange(of: scenePhase) { oldPhase, newPhase in
+            if newPhase == .background {
+                persistenceController.save()
+            }
         }
     }
 }

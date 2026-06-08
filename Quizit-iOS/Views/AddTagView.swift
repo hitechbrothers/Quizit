@@ -11,8 +11,7 @@ import CoreData
 struct AddTagView: View {
     
     @Environment(\.presentationMode) var presentationMode
-//    @StateObject private var addTagVM = AddTagViewModel()
-    @State private var addTagVM = AddTagOO()
+    @State private var addTagVM = AddTagViewModel()
     
     var body: some View {
         VStack {

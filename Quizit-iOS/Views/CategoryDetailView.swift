@@ -10,12 +10,21 @@ import CoreData
 
 struct CategoryDetailView: View {
     
-    @State private var categoryDetailOO = CategoryDetailOO()
     let categoryDO: CategoryDO
-    @State var isTagQuestionPresented: Bool = false
-    @State var isAnswerPresented: Bool = false
-    @State var isTagInfoPresented: Bool = false
-    @ObservedObject var settings = UserSettings()
+    @State private var categoryDetailOO: CategoryDetailViewModel
+    @State private var isTagQuestionPresented: Bool = false
+    @State private var isAnswerPresented: Bool = false
+    @State private var isTagInfoPresented: Bool = false
+    @State private var settings = UserSettings()
+    
+    init(categoryDO: CategoryDO) {
+        self.categoryDO = categoryDO //so the view can use it later
+        _categoryDetailOO = State( //initialize the wrapper directly
+            initialValue: CategoryDetailViewModel(
+                category: categoryDO.category
+            )
+        )
+    }
     
     var body: some View {
         
@@ -110,3 +119,4 @@ struct CategoryDetailView: View {
 //        CategoryDetailView(category: record.category)
 //    }
 //}
+

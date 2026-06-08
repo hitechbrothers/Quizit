@@ -44,13 +44,16 @@ struct PersistenceController {
                 fatalError("Core Data Store failed to initialize \(error), \(error.userInfo)") //remove before shipping see above
             }
         })
+        
+        container.viewContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
+        container.viewContext.automaticallyMergesChangesFromParent = true
     }
     
     var viewContext: NSManagedObjectContext {
         return container.viewContext
     }
         
-    func save() {
+    @MainActor func save() {
         let context = container.viewContext
 
         if context.hasChanges {
@@ -65,3 +68,4 @@ struct PersistenceController {
         }
     }
 }
+

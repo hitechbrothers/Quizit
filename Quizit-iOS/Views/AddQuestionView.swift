@@ -12,8 +12,7 @@ struct AddQuestionView: View {
     
     let categoryDO: CategoryDO
     @Environment(\.presentationMode) var presentationMode
-//    @StateObject private var addQuestionVM = AddRecordViewModel()
-    @State private var addQuestionVM = AddRecordOO()
+    @State private var addQuestionVM = AddRecordViewModel()
 
 
     

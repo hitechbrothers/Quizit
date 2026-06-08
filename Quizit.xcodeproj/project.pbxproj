@@ -32,14 +32,14 @@
 		E04F1256295A7C7300B9B415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1255295A7C7300B9B415 /* Persistence.swift */; };
 		E04F1257295A7C7300B9B415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1255295A7C7300B9B415 /* Persistence.swift */; };
 		E04F1258295A7C7300B9B415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1255295A7C7300B9B415 /* Persistence.swift */; };
-		E04F1262295A7D4E00B9B415 /* CategoryDetailOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125A295A7D4E00B9B415 /* CategoryDetailOO.swift */; };
-		E04F1265295A7D4E00B9B415 /* AddCategoryOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125B295A7D4E00B9B415 /* AddCategoryOO.swift */; };
-		E04F1268295A7D4E00B9B415 /* TagInfoOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125C295A7D4E00B9B415 /* TagInfoOO.swift */; };
-		E04F126B295A7D4E00B9B415 /* CategoriesOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125D295A7D4E00B9B415 /* CategoriesOO.swift */; };
-		E04F126E295A7D4E00B9B415 /* AddRecordOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125E295A7D4E00B9B415 /* AddRecordOO.swift */; };
-		E04F1271295A7D4E00B9B415 /* AddQuestionOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125F295A7D4E00B9B415 /* AddQuestionOO.swift */; };
-		E04F1274295A7D4E00B9B415 /* AddTagOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1260295A7D4E00B9B415 /* AddTagOO.swift */; };
-		E04F1277295A7D4E00B9B415 /* TagQuestionsOO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1261295A7D4E00B9B415 /* TagQuestionsOO.swift */; };
+		E04F1262295A7D4E00B9B415 /* CategoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125A295A7D4E00B9B415 /* CategoryDetailViewModel.swift */; };
+		E04F1265295A7D4E00B9B415 /* AddCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125B295A7D4E00B9B415 /* AddCategoryViewModel.swift */; };
+		E04F1268295A7D4E00B9B415 /* TagInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125C295A7D4E00B9B415 /* TagInfoViewModel.swift */; };
+		E04F126B295A7D4E00B9B415 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125D295A7D4E00B9B415 /* CategoriesViewModel.swift */; };
+		E04F126E295A7D4E00B9B415 /* AddRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125E295A7D4E00B9B415 /* AddRecordViewModel.swift */; };
+		E04F1271295A7D4E00B9B415 /* AddQuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F125F295A7D4E00B9B415 /* AddQuestionViewModel.swift */; };
+		E04F1274295A7D4E00B9B415 /* AddTagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1260295A7D4E00B9B415 /* AddTagViewModel.swift */; };
+		E04F1277295A7D4E00B9B415 /* TagQuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1261295A7D4E00B9B415 /* TagQuestionsViewModel.swift */; };
 		E04F1283295A7DAB00B9B415 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F127B295A7DAA00B9B415 /* AddCategoryView.swift */; };
 		E04F1284295A7DAB00B9B415 /* TagQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F127C295A7DAA00B9B415 /* TagQuestionsView.swift */; };
 		E04F1285295A7DAB00B9B415 /* TagInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F127D295A7DAB00B9B415 /* TagInfoView.swift */; };
@@ -48,9 +48,9 @@
 		E04F1288295A7DAB00B9B415 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1280295A7DAB00B9B415 /* AnswerView.swift */; };
 		E04F1289295A7DAB00B9B415 /* AddQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F1281295A7DAB00B9B415 /* AddQuestionView.swift */; };
 		E04F128E295A7E8600B9B415 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04F128C295A7E8600B9B415 /* UserSettings.swift */; };
-		E04F128F295A7E8600B9B415 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E04F128D295A7E8600B9B415 /* Settings.bundle */; };
 		E04F1292295A81A400B9B415 /* MKiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = E04F1291295A81A400B9B415 /* MKiCloudSync.m */; };
 		E05A7A8A296A981D00767535 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A7A89296A981D00767535 /* CategoryDetailView.swift */; };
+		E0631AEF2F71EBB4004B30DD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0631AEE2F71EBB4004B30DD /* Settings.bundle */; };
 		E0CAFA49295A721F00D40BF0 /* Quizit_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAFA48295A721F00D40BF0 /* Quizit_watchOSApp.swift */; };
 		E0CAFA4B295A721F00D40BF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CAFA4A295A721F00D40BF0 /* ContentView.swift */; };
 		E0CAFA4D295A722000D40BF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CAFA4C295A722000D40BF0 /* Assets.xcassets */; };
@@ -101,14 +101,14 @@
 		E04F123A295A7AE700B9B415 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E04F1251295A7B4100B9B415 /* Quizit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quizit.xcdatamodel; sourceTree = "<group>"; };
 		E04F1255295A7C7300B9B415 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		E04F125A295A7D4E00B9B415 /* CategoryDetailOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailOO.swift; sourceTree = "<group>"; };
-		E04F125B295A7D4E00B9B415 /* AddCategoryOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryOO.swift; sourceTree = "<group>"; };
-		E04F125C295A7D4E00B9B415 /* TagInfoOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagInfoOO.swift; sourceTree = "<group>"; };
-		E04F125D295A7D4E00B9B415 /* CategoriesOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesOO.swift; sourceTree = "<group>"; };
-		E04F125E295A7D4E00B9B415 /* AddRecordOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecordOO.swift; sourceTree = "<group>"; };
-		E04F125F295A7D4E00B9B415 /* AddQuestionOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionOO.swift; sourceTree = "<group>"; };
-		E04F1260295A7D4E00B9B415 /* AddTagOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTagOO.swift; sourceTree = "<group>"; };
-		E04F1261295A7D4E00B9B415 /* TagQuestionsOO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagQuestionsOO.swift; sourceTree = "<group>"; };
+		E04F125A295A7D4E00B9B415 /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
+		E04F125B295A7D4E00B9B415 /* AddCategoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryViewModel.swift; sourceTree = "<group>"; };
+		E04F125C295A7D4E00B9B415 /* TagInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagInfoViewModel.swift; sourceTree = "<group>"; };
+		E04F125D295A7D4E00B9B415 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		E04F125E295A7D4E00B9B415 /* AddRecordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecordViewModel.swift; sourceTree = "<group>"; };
+		E04F125F295A7D4E00B9B415 /* AddQuestionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionViewModel.swift; sourceTree = "<group>"; };
+		E04F1260295A7D4E00B9B415 /* AddTagViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTagViewModel.swift; sourceTree = "<group>"; };
+		E04F1261295A7D4E00B9B415 /* TagQuestionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagQuestionsViewModel.swift; sourceTree = "<group>"; };
 		E04F127B295A7DAA00B9B415 /* AddCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		E04F127C295A7DAA00B9B415 /* TagQuestionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagQuestionsView.swift; sourceTree = "<group>"; };
 		E04F127D295A7DAB00B9B415 /* TagInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagInfoView.swift; sourceTree = "<group>"; };
@@ -117,11 +117,11 @@
 		E04F1280295A7DAB00B9B415 /* AnswerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
 		E04F1281295A7DAB00B9B415 /* AddQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionView.swift; sourceTree = "<group>"; };
 		E04F128C295A7E8600B9B415 /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		E04F128D295A7E8600B9B415 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E04F1290295A81A400B9B415 /* MKiCloudSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKiCloudSync.h; sourceTree = "<group>"; };
 		E04F1291295A81A400B9B415 /* MKiCloudSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKiCloudSync.m; sourceTree = "<group>"; };
 		E04F1293295A81D500B9B415 /* Quizit-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Quizit-Bridging-Header.h"; sourceTree = "<group>"; };
 		E05A7A89296A981D00767535 /* CategoryDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		E0631AEE2F71EBB4004B30DD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		E0CAFA46295A721F00D40BF0 /* Quizit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CAFA48295A721F00D40BF0 /* Quizit_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizit_watchOSApp.swift; sourceTree = "<group>"; };
 		E0CAFA4A295A721F00D40BF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E0715C612E6FA86C002A1587 /* DataObjects */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E0715C622E6FA8D2002A1587 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E0715C632E6FA8D2002A1587 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = DataObjects; sourceTree = "<group>"; };
+		E0715C612E6FA86C002A1587 /* DObjects */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E0715C622E6FA8D2002A1587 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, E0715C632E6FA8D2002A1587 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = DObjects; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +189,8 @@
 		E04F1232295A7A5F00B9B415 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				E0715C612E6FA86C002A1587 /* DataObjects */,
-				E04F1259295A7D1000B9B415 /* ObservableObjects */,
+				E0715C612E6FA86C002A1587 /* DObjects */,
+				E04F1259295A7D1000B9B415 /* OObjects */,
 				E04F1255295A7C7300B9B415 /* Persistence.swift */,
 				E04F1250295A7B4100B9B415 /* Quizit.xcdatamodeld */,
 				E04F1233295A7AA000B9B415 /* Models */,
@@ -212,19 +212,19 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E04F1259295A7D1000B9B415 /* ObservableObjects */ = {
+		E04F1259295A7D1000B9B415 /* OObjects */ = {
 			isa = PBXGroup;
 			children = (
-				E04F125B295A7D4E00B9B415 /* AddCategoryOO.swift */,
-				E04F125F295A7D4E00B9B415 /* AddQuestionOO.swift */,
-				E04F125E295A7D4E00B9B415 /* AddRecordOO.swift */,
-				E04F1260295A7D4E00B9B415 /* AddTagOO.swift */,
-				E04F125A295A7D4E00B9B415 /* CategoryDetailOO.swift */,
-				E04F125D295A7D4E00B9B415 /* CategoriesOO.swift */,
-				E04F125C295A7D4E00B9B415 /* TagInfoOO.swift */,
-				E04F1261295A7D4E00B9B415 /* TagQuestionsOO.swift */,
+				E04F125B295A7D4E00B9B415 /* AddCategoryViewModel.swift */,
+				E04F125F295A7D4E00B9B415 /* AddQuestionViewModel.swift */,
+				E04F125E295A7D4E00B9B415 /* AddRecordViewModel.swift */,
+				E04F1260295A7D4E00B9B415 /* AddTagViewModel.swift */,
+				E04F125A295A7D4E00B9B415 /* CategoryDetailViewModel.swift */,
+				E04F125D295A7D4E00B9B415 /* CategoriesViewModel.swift */,
+				E04F125C295A7D4E00B9B415 /* TagInfoViewModel.swift */,
+				E04F1261295A7D4E00B9B415 /* TagQuestionsViewModel.swift */,
 			);
-			path = ObservableObjects;
+			path = OObjects;
 			sourceTree = "<group>";
 		};
 		E04F127A295A7D8100B9B415 /* Views */ = {
@@ -248,7 +248,7 @@
 				E04F1293295A81D500B9B415 /* Quizit-Bridging-Header.h */,
 				E04F1290295A81A400B9B415 /* MKiCloudSync.h */,
 				E04F1291295A81A400B9B415 /* MKiCloudSync.m */,
-				E04F128D295A7E8600B9B415 /* Settings.bundle */,
+				E0631AEE2F71EBB4004B30DD /* Settings.bundle */,
 				E04F128C295A7E8600B9B415 /* UserSettings.swift */,
 			);
 			path = Resources;
@@ -353,7 +353,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E0715C612E6FA86C002A1587 /* DataObjects */,
+				E0715C612E6FA86C002A1587 /* DObjects */,
 			);
 			name = "Quizit-watchOS";
 			productName = "Quizit-watchOS Watch App";
@@ -373,7 +373,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E0715C612E6FA86C002A1587 /* DataObjects */,
+				E0715C612E6FA86C002A1587 /* DObjects */,
 			);
 			name = "Quizit-macOS";
 			productName = "Quizit-macOS";
@@ -395,7 +395,7 @@
 				E0CAFA52295A722000D40BF0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E0715C612E6FA86C002A1587 /* DataObjects */,
+				E0715C612E6FA86C002A1587 /* DObjects */,
 			);
 			name = "Quizit-iOS";
 			productName = "Quizit-iOS";
@@ -410,7 +410,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					E0CAFA45295A721F00D40BF0 = {
 						CreatedOnToolsVersion = 14.2;
@@ -468,7 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EBEF5D295A6E670093AEA8 /* Preview Assets.xcassets in Resources */,
-				E04F128F295A7E8600B9B415 /* Settings.bundle in Resources */,
+				E0631AEF2F71EBB4004B30DD /* Settings.bundle in Resources */,
 				E0EBEF5A295A6E670093AEA8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,32 +515,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				E04F1283295A7DAB00B9B415 /* AddCategoryView.swift in Sources */,
-				E04F1262295A7D4E00B9B415 /* CategoryDetailOO.swift in Sources */,
+				E04F1262295A7D4E00B9B415 /* CategoryDetailViewModel.swift in Sources */,
 				E04F1289295A7DAB00B9B415 /* AddQuestionView.swift in Sources */,
 				E04F1288295A7DAB00B9B415 /* AnswerView.swift in Sources */,
-				E04F1277295A7D4E00B9B415 /* TagQuestionsOO.swift in Sources */,
+				E04F1277295A7D4E00B9B415 /* TagQuestionsViewModel.swift in Sources */,
 				E04F124A295A7AE700B9B415 /* Tag+CoreDataClass.swift in Sources */,
 				E04F1292295A81A400B9B415 /* MKiCloudSync.m in Sources */,
-				E04F1271295A7D4E00B9B415 /* AddQuestionOO.swift in Sources */,
+				E04F1271295A7D4E00B9B415 /* AddQuestionViewModel.swift in Sources */,
 				E04F123E295A7AE700B9B415 /* Category+CoreDataClass.swift in Sources */,
 				E04F1286295A7DAB00B9B415 /* ContentView.swift in Sources */,
 				E04F1241295A7AE700B9B415 /* BaseModel.swift in Sources */,
 				E04F1247295A7AE700B9B415 /* Record+CoreDataClass.swift in Sources */,
 				E04F1252295A7B4100B9B415 /* Quizit.xcdatamodeld in Sources */,
 				E04F1256295A7C7300B9B415 /* Persistence.swift in Sources */,
-				E04F1265295A7D4E00B9B415 /* AddCategoryOO.swift in Sources */,
+				E04F1265295A7D4E00B9B415 /* AddCategoryViewModel.swift in Sources */,
 				E04F1244295A7AE700B9B415 /* Record+CoreDataProperties.swift in Sources */,
 				E04F1285295A7DAB00B9B415 /* TagInfoView.swift in Sources */,
 				E04F1284295A7DAB00B9B415 /* TagQuestionsView.swift in Sources */,
-				E04F126E295A7D4E00B9B415 /* AddRecordOO.swift in Sources */,
+				E04F126E295A7D4E00B9B415 /* AddRecordViewModel.swift in Sources */,
 				E05A7A8A296A981D00767535 /* CategoryDetailView.swift in Sources */,
-				E04F1274295A7D4E00B9B415 /* AddTagOO.swift in Sources */,
+				E04F1274295A7D4E00B9B415 /* AddTagViewModel.swift in Sources */,
 				E04F124D295A7AE700B9B415 /* Tag+CoreDataProperties.swift in Sources */,
 				E04F1287295A7DAB00B9B415 /* AddTagView.swift in Sources */,
 				E04F123B295A7AE700B9B415 /* Category+CoreDataProperties.swift in Sources */,
-				E04F126B295A7D4E00B9B415 /* CategoriesOO.swift in Sources */,
+				E04F126B295A7D4E00B9B415 /* CategoriesViewModel.swift in Sources */,
 				E04F128E295A7E8600B9B415 /* UserSettings.swift in Sources */,
-				E04F1268295A7D4E00B9B415 /* TagInfoOO.swift in Sources */,
+				E04F1268295A7D4E00B9B415 /* TagInfoViewModel.swift in Sources */,
 				E0EBEF56295A6E650093AEA8 /* Quizit_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,8 +625,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Quizit-macOS/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Quizit;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
@@ -656,8 +658,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Quizit-macOS/Preview Content\"";
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Quizit;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
@@ -735,6 +739,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -793,6 +798,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;

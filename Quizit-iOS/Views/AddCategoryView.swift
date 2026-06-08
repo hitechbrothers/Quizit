@@ -11,8 +11,7 @@ import CoreData
 struct AddCategoryView: View {
     
     @Environment(\.presentationMode) var presentationMode
-//    @StateObject private var addCategoryVM = AddCategoryViewModel()
-    @State private var addCategoryVM = AddCategoryOO()
+    @State private var addCategoryVM = AddCategoryViewModel()
 
     var body: some View {
         VStack {

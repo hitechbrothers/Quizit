@@ -12,8 +12,7 @@ struct TagQuestionsView: View {
     
     let categoryDO: CategoryDO
     @Environment(\.presentationMode) var presentationMode
-//    @StateObject private var tagQuestionsVM = TagQuestionsViewModel()
-    @State private var tagQuestionsVM = TagQuestionsOO()
+    @State private var tagQuestionsVM = TagQuestionsViewModel()
     @State var isAddFormPresented: Bool = false
     
     var body: some View {
@@ -22,7 +21,7 @@ struct TagQuestionsView: View {
             
             List {
                 ForEach(tagQuestionsVM.records) { record in
-                    RecordCell(recordVM: record)
+                    RecordCell(recordDO: record)
                 }
                 .onDelete(perform: deleteRecord)
             }
@@ -62,7 +61,7 @@ struct TagQuestionsView: View {
 
 struct RecordCell: View {
     
-    let recordVM: RecordViewModel
+    let recordDO: RecordDO
     
     var body: some View {
         //        NavigationLink(destination: CategoryDetailView(category: category)) {
@@ -72,7 +71,7 @@ struct RecordCell: View {
 //            Text(recordVM.question)
 //        }
         NavigationLink(destination: Text("test")) { //fix later see above, I don't feel like thinking
-            Text(recordVM.question)
+            Text(recordDO.question)
         }
     }
 }

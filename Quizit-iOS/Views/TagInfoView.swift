@@ -11,9 +11,8 @@ import CoreData
 struct TagInfoView: View {
     
     @Environment(\.presentationMode) var presentationMode
-//    @StateObject private var tagInfoVM = TagInfoViewModel()
-    @State private var tagInfoVM = TagInfoOO()
-    @State var isAddFormPresented: Bool = false
+    @State private var tagInfoVM = TagInfoViewModel()
+    @State private var isAddFormPresented: Bool = false
     
     var body: some View {
         NavigationView {
